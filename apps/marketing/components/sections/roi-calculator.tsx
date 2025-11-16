@@ -1,12 +1,48 @@
 'use client'
 
-import { useTranslations } from 'next-intl'
+import { useState, useEffect } from 'react'
+import { useTranslations, useLocale } from 'next-intl'
+import Link from 'next/link'
 import { Section } from '@/components/layout/Section'
 import { Container } from '@/components/layout/Container'
 import { Calculator, TrendingUp, Clock } from 'lucide-react'
+import { formatCurrency, formatNumber } from '@/lib/format'
 
 export function ROICalculatorSection() {
   const t = useTranslations('roiSection')
+  const locale = useLocale() as 'nl' | 'en'
+
+  // Input state
+  const [teamSize, setTeamSize] = useState(10)
+  const [hourlyRate, setHourlyRate] = useState(65)
+  const [hoursSaved, setHoursSaved] = useState(5)
+  const [adoption, setAdoption] = useState(80)
+
+  // Calculated results
+  const [results, setResults] = useState({
+    monthlySavings: 0,
+    annualSavings: 0,
+    totalHoursSaved: 0
+  })
+
+  // Calculate ROI whenever inputs change
+  useEffect(() => {
+    // Monthly savings = (teamSize × hourlyRate × hoursSaved × 4.33 weeks) × (adoption / 100)
+    const weeksPerMonth = 4.33
+    const monthlySavings = (teamSize * hourlyRate * hoursSaved * weeksPerMonth) * (adoption / 100)
+
+    // Annual savings = monthly × 12
+    const annualSavings = monthlySavings * 12
+
+    // Total hours saved per year = teamSize × hoursSaved × 52 weeks × (adoption / 100)
+    const totalHoursSaved = teamSize * hoursSaved * 52 * (adoption / 100)
+
+    setResults({
+      monthlySavings: Math.round(monthlySavings),
+      annualSavings: Math.round(annualSavings),
+      totalHoursSaved: Math.round(totalHoursSaved)
+    })
+  }, [teamSize, hourlyRate, hoursSaved, adoption])
 
   return (
     <Section spacing="xl" className="relative overflow-hidden">
@@ -36,25 +72,28 @@ export function ROICalculatorSection() {
             <div className="mb-10 grid gap-6 sm:grid-cols-2">
               {/* Team Size */}
               <div className="space-y-3">
-                <label className="block text-sm font-semibold text-[color:var(--fg)]">
+                <label htmlFor="team-size" className="block text-sm font-semibold text-[color:var(--fg)]">
                   {t('inputs.teamSize.label')}
                 </label>
                 <input
+                  id="team-size"
                   type="number"
                   min="1"
                   max="1000"
-                  defaultValue="10"
+                  value={teamSize}
+                  onChange={(e) => setTeamSize(Number(e.target.value))}
                   className="w-full rounded-lg border border-[color:var(--border)] bg-[color:var(--bg-elevated)] px-4 py-3 text-[color:var(--fg)] transition-all focus:border-[color:var(--brand)] focus:outline-none focus:ring-2 focus:ring-[color:var(--brand)] focus:ring-opacity-20"
                   placeholder="10"
+                  aria-describedby="team-size-help"
                 />
-                <p className="text-xs text-[color:var(--fg-subtle)]">
+                <p id="team-size-help" className="text-xs text-[color:var(--fg-subtle)]">
                   {t('inputs.teamSize.help')}
                 </p>
               </div>
 
               {/* Hourly Rate */}
               <div className="space-y-3">
-                <label className="block text-sm font-semibold text-[color:var(--fg)]">
+                <label htmlFor="hourly-rate" className="block text-sm font-semibold text-[color:var(--fg)]">
                   {t('inputs.hourlyRate.label')}
                 </label>
                 <div className="relative">
@@ -62,57 +101,66 @@ export function ROICalculatorSection() {
                     €
                   </span>
                   <input
+                    id="hourly-rate"
                     type="number"
                     min="10"
                     max="500"
-                    defaultValue="65"
+                    value={hourlyRate}
+                    onChange={(e) => setHourlyRate(Number(e.target.value))}
                     className="w-full rounded-lg border border-[color:var(--border)] bg-[color:var(--bg-elevated)] py-3 pl-8 pr-4 text-[color:var(--fg)] transition-all focus:border-[color:var(--brand)] focus:outline-none focus:ring-2 focus:ring-[color:var(--brand)] focus:ring-opacity-20"
                     placeholder="65"
+                    aria-describedby="hourly-rate-help"
                   />
                 </div>
-                <p className="text-xs text-[color:var(--fg-subtle)]">
+                <p id="hourly-rate-help" className="text-xs text-[color:var(--fg-subtle)]">
                   {t('inputs.hourlyRate.help')}
                 </p>
               </div>
 
               {/* Hours Saved Per Week */}
               <div className="space-y-3">
-                <label className="block text-sm font-semibold text-[color:var(--fg)]">
+                <label htmlFor="hours-saved" className="block text-sm font-semibold text-[color:var(--fg)]">
                   {t('inputs.hoursSaved.label')}
                 </label>
                 <input
+                  id="hours-saved"
                   type="number"
                   min="0"
                   max="40"
                   step="0.5"
-                  defaultValue="5"
+                  value={hoursSaved}
+                  onChange={(e) => setHoursSaved(Number(e.target.value))}
                   className="w-full rounded-lg border border-[color:var(--border)] bg-[color:var(--bg-elevated)] px-4 py-3 text-[color:var(--fg)] transition-all focus:border-[color:var(--brand)] focus:outline-none focus:ring-2 focus:ring-[color:var(--brand)] focus:ring-opacity-20"
                   placeholder="5"
+                  aria-describedby="hours-saved-help"
                 />
-                <p className="text-xs text-[color:var(--fg-subtle)]">
+                <p id="hours-saved-help" className="text-xs text-[color:var(--fg-subtle)]">
                   {t('inputs.hoursSaved.help')}
                 </p>
               </div>
 
               {/* Adoption Rate */}
               <div className="space-y-3">
-                <label className="block text-sm font-semibold text-[color:var(--fg)]">
+                <label htmlFor="adoption" className="block text-sm font-semibold text-[color:var(--fg)]">
                   {t('inputs.adoption.label')}
                 </label>
                 <div className="relative">
                   <input
+                    id="adoption"
                     type="number"
                     min="10"
                     max="100"
-                    defaultValue="80"
+                    value={adoption}
+                    onChange={(e) => setAdoption(Number(e.target.value))}
                     className="w-full rounded-lg border border-[color:var(--border)] bg-[color:var(--bg-elevated)] px-4 py-3 pr-10 text-[color:var(--fg)] transition-all focus:border-[color:var(--brand)] focus:outline-none focus:ring-2 focus:ring-[color:var(--brand)] focus:ring-opacity-20"
                     placeholder="80"
+                    aria-describedby="adoption-help"
                   />
                   <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-[color:var(--fg-muted)]">
                     %
                   </span>
                 </div>
-                <p className="text-xs text-[color:var(--fg-subtle)]">
+                <p id="adoption-help" className="text-xs text-[color:var(--fg-subtle)]">
                   {t('inputs.adoption.help')}
                 </p>
               </div>
@@ -134,8 +182,8 @@ export function ROICalculatorSection() {
                   <div className="mb-2 flex justify-center">
                     <TrendingUp className="h-5 w-5 text-[color:var(--brand)]" />
                   </div>
-                  <div className="mb-1 text-3xl font-bold text-[color:var(--fg)]">
-                    €26.000
+                  <div className="mb-1 text-3xl font-bold text-[color:var(--fg)]" aria-live="polite">
+                    {formatCurrency(results.monthlySavings, locale)}
                   </div>
                   <div className="text-sm text-[color:var(--fg-muted)]">
                     {t('results.monthly')}
@@ -147,7 +195,9 @@ export function ROICalculatorSection() {
                   <div className="mb-2 flex justify-center">
                     <TrendingUp className="h-5 w-5" />
                   </div>
-                  <div className="mb-1 text-3xl font-bold">€312.000</div>
+                  <div className="mb-1 text-3xl font-bold" aria-live="polite">
+                    {formatCurrency(results.annualSavings, locale)}
+                  </div>
                   <div className="text-sm opacity-90">
                     {t('results.annual')}
                   </div>
@@ -158,8 +208,8 @@ export function ROICalculatorSection() {
                   <div className="mb-2 flex justify-center">
                     <Clock className="h-5 w-5 text-[color:var(--accent-amber)]" />
                   </div>
-                  <div className="mb-1 text-3xl font-bold text-[color:var(--fg)]">
-                    4.800
+                  <div className="mb-1 text-3xl font-bold text-[color:var(--fg)]" aria-live="polite">
+                    {formatNumber(results.totalHoursSaved, locale)}
                   </div>
                   <div className="text-sm text-[color:var(--fg-muted)]">
                     {t('results.hours')}
@@ -169,9 +219,12 @@ export function ROICalculatorSection() {
 
               {/* CTA */}
               <div className="mt-8 text-center">
-                <button className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-[color:var(--brand)] to-[color:var(--brand-strong)] px-8 py-4 font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl">
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-[color:var(--brand)] to-[color:var(--brand-strong)] px-8 py-4 font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[color:var(--brand)] focus:ring-offset-2"
+                >
                   {t('cta')}
-                </button>
+                </Link>
                 <p className="mt-4 text-sm text-[color:var(--fg-subtle)]">
                   {t('disclaimer')}
                 </p>
