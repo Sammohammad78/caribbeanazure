@@ -225,3 +225,27 @@ export default async function PrivacyPage({ params }: { params: { locale: string
                       <FileText className="h-6 w-6" />
                     </div>
                     <div>
+                      <CardTitle className="text-2xl font-bold tracking-tight text-[color:var(--fg)]">
+                        {t('section8.title')}
+                      </CardTitle>
+                      <p className="mt-2 text-[color:var(--fg-muted)]">
+                        {t('section8.lastUpdated')}
+                      </p>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="space-y-4">
+                    <p dangerouslySetInnerHTML={{ __html: t('section8.content') }} />
+                    <p className="font-semibold text-[color:var(--fg)]">
+                      {t('section8.contactInfo')}
+                    </p>
+                    <p dangerouslySetInnerHTML={{ __html: t('section8.contactDetails') }} />
+                  </CardContent>
+                </Card>
+              </div>
+            </section>
+          </Container>
+        </main>
+      </div>
+    </>
+  )
+}

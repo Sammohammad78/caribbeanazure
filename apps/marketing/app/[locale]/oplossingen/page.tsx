@@ -11,9 +11,9 @@ import { TrustStrip } from '@/components/sections/trust-strip'
 import { formatCurrency, getPriceOnRequest } from '@/lib/format'
 import { BreadcrumbSchema } from '@/components/seo/BreadcrumbSchema'
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'solutions' })
-  const locale = params.locale
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'solutions' })
 
   return {
     title: `${t('title')} · Caribbean Azure`,
@@ -45,17 +45,18 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
 }
 
-export default async function OplossingenPage({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'solutions' })
-  const tCommon = await getTranslations({ locale: params.locale, namespace: 'common' })
-  const locale = params.locale as 'nl' | 'en'
+export default async function OplossingenPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'solutions' })
+  const tCommon = await getTranslations({ locale, namespace: 'common' })
+  const typedLocale = locale as 'nl' | 'en'
 
   // Build locale-aware href (NL at root, EN with /en prefix)
-  const buildHref = (slug: string) => (locale === 'nl' ? `/${slug}` : `/en/${slug}`)
+  const buildHref = (slug: string) => (typedLocale === 'nl' ? `/${slug}` : `/en/${slug}`)
 
   // Breadcrumb for SEO
   const breadcrumbItems = [
-    { name: locale === 'nl' ? 'Home' : 'Home', url: 'https://www.caribbeanazure.com' + (locale === 'en' ? '/en' : '') },
+    { name: typedLocale === 'nl' ? 'Home' : 'Home', url: 'https://www.caribbeanazure.com' + (typedLocale === 'en' ? '/en' : '') },
     { name: t('title'), url: 'https://www.caribbeanazure.com' + buildHref('oplossingen') },
   ]
 
@@ -66,7 +67,7 @@ export default async function OplossingenPage({ params }: { params: { locale: st
       name: t('light.title'),
       subtitle: t('light.subtitle'),
       description: t('light.description'),
-      price: formatCurrency(999, locale),
+      price: formatCurrency(999, typedLocale),
       priceLabel: tCommon('from'),
       href: buildHref('oplossingen/light'),
       color: 'from-amber-500 to-orange-500',
@@ -77,7 +78,7 @@ export default async function OplossingenPage({ params }: { params: { locale: st
       name: t('manufacturing.title'),
       subtitle: t('manufacturing.subtitle'),
       description: t('manufacturing.description'),
-      price: formatCurrency(1999, locale),
+      price: formatCurrency(1999, typedLocale),
       priceLabel: tCommon('from'),
       href: buildHref('oplossingen/maakindustrie'),
       color: 'from-blue-500 to-cyan-500',
@@ -89,7 +90,7 @@ export default async function OplossingenPage({ params }: { params: { locale: st
       name: t('configurators.title'),
       subtitle: t('configurators.subtitle'),
       description: t('configurators.description'),
-      price: getPriceOnRequest(locale),
+      price: getPriceOnRequest(typedLocale),
       priceLabel: null,
       href: buildHref('oplossingen/configurators'),
       color: 'from-purple-500 to-pink-500',

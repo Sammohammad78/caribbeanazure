@@ -8,9 +8,9 @@ import Link from 'next/link'
 import { BackgroundEngine } from '@/components/backgrounds/BackgroundEngine'
 import { backgroundThemes } from '@/lib/backgroundThemes'
 
-export default async function AboutPage({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'about' })
-  const locale = params.locale
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'about' })
 
   // Build locale-aware href (NL at root, EN with /en prefix)
   const buildHref = (slug: string) => (locale === 'nl' ? `/${slug}` : `/en/${slug}`)

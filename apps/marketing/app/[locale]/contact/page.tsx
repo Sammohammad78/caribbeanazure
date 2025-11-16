@@ -10,8 +10,9 @@ import { siteConfig } from '@/config/site'
 import { BackgroundEngine } from '@/components/backgrounds/BackgroundEngine'
 import { backgroundThemes } from '@/lib/backgroundThemes'
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'contactPage' })
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'contactPage' })
 
   return {
     title: `${t('title')} · Caribbean Azure`,
@@ -19,8 +20,9 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
 }
 
-export default async function ContactPage({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'contactPage' })
+export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'contactPage' })
   return (
     <>
       <div className="relative">
