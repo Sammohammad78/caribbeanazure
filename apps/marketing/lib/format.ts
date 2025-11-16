@@ -78,3 +78,5 @@ export function formatMonths(count: number, locale: 'nl' | 'en' = 'nl'): string 
   if (locale === 'nl') {
     return count === 1 ? 'maand' : 'maanden'
   }
+  return count === 1 ? 'month' : 'months'
+}

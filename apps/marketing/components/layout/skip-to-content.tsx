@@ -33,8 +33,3 @@ export function SkipToContent() {
     </a>
   )
 }
-
-
-
-================================================
-FILE: components/layout/theme-toggle.tsx

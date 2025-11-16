@@ -86,3 +86,110 @@ export const backgroundThemes: Record<string, BackgroundTheme> = {
   },
 
   about: {
+    name: 'About - Organic & Human',
+    mood: 'Warm, trustworthy, flowing',
+    effect: 'organic-waves',
+    colors: {
+      primary: '#2563EB',
+      secondary: '#F59E0B',
+      accent: '#06B6D4',
+      gradientStart: '#F59E0B',
+      gradientEnd: '#2563EB',
+    },
+    motion: {
+      speed: 0.7,
+      parallaxIntensity: 0.12,
+      flowDirection: 'vertical',
+    },
+    particles: {
+      count: 2500,
+      size: 3.0,
+      opacity: 0.5,
+    },
+    performance: {
+      dpr: [1, 1.5],
+      antialias: true,
+    },
+  },
+
+  contact: {
+    name: 'Contact - Inviting & Clear',
+    mood: 'Clean, approachable depth',
+    effect: 'depth-field',
+    colors: {
+      primary: '#2563EB',
+      secondary: '#06B6D4',
+      accent: '#F59E0B',
+      gradientStart: '#06B6D4',
+      gradientEnd: '#2563EB',
+    },
+    motion: {
+      speed: 0.4,
+      parallaxIntensity: 0.2,
+      flowDirection: 'radial',
+    },
+    particles: {
+      count: 1800,
+      size: 2.2,
+      opacity: 0.65,
+    },
+    performance: {
+      dpr: [1, 1.5],
+      antialias: true,
+    },
+  },
+
+  solutions: {
+    name: 'Solutions - Dynamic & Powerful',
+    mood: 'Energetic, capability-focused',
+    effect: 'fluid-particles',
+    colors: {
+      primary: '#2563EB',
+      secondary: '#8B5CF6',
+      accent: '#06B6D4',
+      gradientStart: '#2563EB',
+      gradientEnd: '#8B5CF6',
+    },
+    motion: {
+      speed: 1.0,
+      parallaxIntensity: 0.18,
+      flowDirection: 'horizontal',
+    },
+    particles: {
+      count: 4000,
+      size: 2.0,
+      opacity: 0.7,
+    },
+    performance: {
+      dpr: [1, 1.5],
+      antialias: true,
+    },
+  },
+
+  minimal: {
+    name: 'Minimal - Subtle & Professional',
+    mood: 'Clean, non-distracting',
+    effect: 'minimal-float',
+    colors: {
+      primary: '#2563EB',
+      secondary: '#94A3B8',
+      accent: '#06B6D4',
+      gradientStart: '#F8FAFC',
+      gradientEnd: '#E2E8F0',
+    },
+    motion: {
+      speed: 0.3,
+      parallaxIntensity: 0.05,
+      flowDirection: 'vertical',
+    },
+    particles: {
+      count: 800,
+      size: 1.5,
+      opacity: 0.3,
+    },
+    performance: {
+      dpr: [1, 2],
+      antialias: false,
+    },
+  },
+}
