@@ -6,8 +6,9 @@ import { BackgroundEngine } from '@/components/backgrounds/BackgroundEngine'
 import { backgroundThemes } from '@/lib/backgroundThemes'
 import { Shield, Lock, Eye, Database, Mail, FileText } from 'lucide-react'
 
-export async function generateMetadata({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'privacy' })
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'privacy' })
 
   return {
     title: `${t('title')} · Caribbean Azure`,
@@ -15,15 +16,16 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   }
 }
 
-export default async function PrivacyPage({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale: params.locale, namespace: 'privacy' })
+export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'privacy' })
 
   return (
     <>
       <div className="relative">
         {/* 3D Background */}
         <div className="fixed inset-0 -z-10">
-          <BackgroundEngine theme={backgroundThemes.legal} />
+          <BackgroundEngine theme={backgroundThemes.minimal} />
         </div>
 
         <Header />
@@ -242,8 +244,8 @@ export default async function PrivacyPage({ params }: { params: { locale: string
                   </CardContent>
                 </Card>
               </div>
-            </section>
-          </Container>
+            </div>
+          </section>
         </main>
       </div>
     </>
