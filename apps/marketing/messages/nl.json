@@ -1,0 +1,1683 @@
+================================================
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Oplossingen",
+    "services": "Diensten",
+    "cases": "Cases",
+    "pricing": "Tarieven",
+    "about": "Over ons",
+    "industries": "Sectoren",
+    "integrations": "Integraties",
+    "security": "Security",
+    "insights": "Insights",
+    "contact": "Contact",
+    "blueprint": "Blueprint",
+    "roi": "ROI-calculator",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Voorwaarden"
+  },
+  "hero": {
+    "badge": "Caribbean Azure · Automatisering Studio",
+    "title": "Automatiseer je werk. Versnel je groei.",
+    "subtitle": "Wij ontwerpen praktische automatiseringen voor teams die",
+    "subtitleHighlight1": "minder willen klikken",
+    "subtitleHighlight2": "meer willen leveren",
+    "subtitleAnd": "en",
+    "cta": {
+      "primary": "Plan een korte intake",
+      "secondary": "Bekijk onze aanpak"
+    }
+  },
+  "outcomes": {
+    "label": "Typische uitkomsten",
+    "speed": {
+      "title": "Snellere responstijd",
+      "value": "-60%",
+      "footnote": "Gemiddeld binnen 6 weken live."
+    },
+    "deals": {
+      "title": "Meer deals",
+      "value": "+25-40%",
+      "footnote": "Sales pipeline sneller naar won deals."
+    },
+    "work": {
+      "title": "Minder repetitief werk",
+      "value": "-30-50%",
+      "footnote": "Teams focussen op hoogwaardig werk."
+    }
+  },
+  "services": {
+    "title": "Diensten",
+    "subtitle": "Wat we voor je doen",
+    "items": [
+      {
+        "title": "Workflow-automatisering",
+        "description": "We nemen terugkerende taken uit handen. E-mails, boekhouding, klantopvolging — het loopt gewoon. Jij focust op het werk dat telt."
+      },
+      {
+        "title": "AI-assistenten & chatbots",
+        "description": "We bouwen bots die klanten verder helpen, afspraken plannen of offertes voorbereiden. Via je website of WhatsApp, klaar voor productie."
+      },
+      {
+        "title": "Dashboards & rapportage",
+        "description": "Inzicht zonder ruis. Je ziet wat er goed gaat, waar tijd weglekt en waar je het beste kunt bijsturen."
+      },
+      {
+        "title": "Webdesign met impact",
+        "description": "Snel, helder en prettig in gebruik. Je site is mooi, maar vooral effectief — gekoppeld aan je automatisering en klaar om te groeien."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Waarom wij",
+    "description": "We houden het menselijk. Geen vakjargon. Geen omwegen. We luisteren, bouwen en verbeteren tot het echt werkt in jouw praktijk."
+  },
+  "process": {
+    "title": "Hoe we werken",
+    "subtitle": "Van intake tot livegang in drie heldere stappen.",
+    "step1": {
+      "title": "1. Intake & proces-scan",
+      "description": "30 minuten om je snelste winst te identificeren. We scannen je huidige processen en tools."
+    },
+    "step2": {
+      "title": "2. Prototype in 72 uur",
+      "description": "Binnen 3 werkdagen een werkend prototype van je eerste workflow. Geen weken plannen, direct resultaat zien."
+    },
+    "step3": {
+      "title": "3. Livegang & monitoring",
+      "description": "Training voor je team + live dashboards met real-time SLA's. Je houdt altijd zicht op doorlooptijd en bottlenecks."
+    }
+  },
+  "useCases": {
+    "title": "Concrete use-cases",
+    "subtitle": "Drie scenario's die direct waarde leveren.",
+    "items": [
+      {
+        "title": "Inbox-to-Action Automatisering",
+        "problem": "E-mails verdwijnen in de inbox. Follow-ups sneuvelen. Offerteaanvragen duren dagen.",
+        "solution": "Inkomende e-mails worden automatisch naar ClickUp, Teams of WhatsApp gestuurd met urgentie en categorie.",
+        "example": "Alle mails met 'offerte' in onderwerp → task met prio high + tag Sales binnen 30 seconden.",
+        "outcome": "30-60% minder doorlooptijd van e-mail tot actie."
+      },
+      {
+        "title": "Offerte-Generator met Goedkeuringsflow",
+        "problem": "Salesteam verliest tijd met handmatig offertes kopieren, plakken en mailen.",
+        "solution": "Template-based offertes met klantgegevens uit CRM + automatische goedkeuringsflow voor directeur.",
+        "example": "Salesteam vult simpel formulier → PDF offerte binnen 5 min in klant inbox.",
+        "outcome": "85%+ foutreductie, 4x sneller van aanvraag naar verzending."
+      },
+      {
+        "title": "Website-Chat → CRM-Lead met Validatie",
+        "problem": "Website bezoekers stellen vragen, maar leads verdwijnen in inbox of worden niet gekwalificeerd.",
+        "solution": "AI-chatbot beantwoordt FAQ's + kwalificeert leads + maakt automatisch CRM-record aan met hot/warm/cold label.",
+        "example": "Bezoeker vraagt 'Werkt dit met Exact?' → Bot antwoordt + maakt hot lead aan + stuurt kalenderlink.",
+        "outcome": "62% van vragen direct beantwoord, 18% meer gekwalificeerde leads in CRM."
+      }
+    ],
+    "cta": "Plan een intake—ontdek je snelste winst"
+  },
+  "cases": {
+    "title": "Bewijs, geen beloftes",
+    "subtitle": "Een selectie van recente trajecten en de gemeten impact.",
+    "cta": "Bekijk case",
+    "items": [
+      {
+        "slug": "randstad-inhouse",
+        "client": "Randstad Inhouse",
+        "sector": "Recruitment",
+        "headline": "Intake van 3 dagen naar 3 uur",
+        "summary": "WhatsApp intake-assistent koppelt direct met ATS en prioriteert kandidaten.",
+        "kpis": [
+          "-60% time-to-first-call",
+          "2,4x meer gekwalificeerde kandidaten",
+          "100% GDPR logging automatisch"
+        ],
+        "ctaLabel": "Lees case"
+      },
+      {
+        "slug": "abn-amro-ventures",
+        "client": "ABN AMRO Ventures",
+        "sector": "Investering",
+        "headline": "Dealflow scoring in realtime dashboards",
+        "summary": "AI scorecards zetten intake direct klaar voor partners met Power BI overzichten.",
+        "kpis": [
+          "-280 uur Excel-werk per kwartaal",
+          "87% match tussen score en won deal",
+          "Alerts bij pipeline-afwijkingen"
+        ],
+        "ctaLabel": "Lees case"
+      },
+      {
+        "slug": "cm-com-support",
+        "client": "CM.com Support",
+        "sector": "Support",
+        "headline": "24/7 support met hybride AI-agent",
+        "summary": "RAG agent lost 62% tickets op, Zendesk krijgt context en voorstel voor de rest.",
+        "kpis": [
+          "-47% ticket backlog in 6 weken",
+          "+0,5 stijging in CSAT",
+          "-32% gemiddelde afhandeltijd"
+        ],
+        "ctaLabel": "Lees case"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Sprints van twee weken",
+        "body": "Elk project leveren we in blokken van twee weken met dashboards, changelog en videotour."
+      },
+      {
+        "title": "Stakeholders in controle",
+        "body": "C-level of team leads volgen live de KPI-impact, krijgen alerts en kunnen bijsturen."
+      },
+      {
+        "title": "ROI transparant",
+        "body": "Voor elke case tonen we baseline, target en gerealiseerde impact zodat je weet wat je krijgt."
+      }
+    ],
+    "detail": {
+      "randstad-inhouse": {
+        "title": "Randstad Inhouse — intake van 3 dagen naar 3 uur",
+        "quote": {
+          "text": "Recruiters hebben eindelijk zicht op welke kandidaten klaar zijn voor een call. Alles staat al in het ATS met de juiste context.",
+          "author": "Teamlead Recruitment",
+          "role": "Randstad Inhouse"
+        },
+        "kpis": [
+          { "label": "Time-to-first-call", "before": "3 dagen", "after": "3 uur" },
+          { "label": "Handmatige administratie", "before": "5 uur/dag", "after": "1,5 uur/dag" },
+          { "label": "Kwaliteit intake", "before": "Onvolledig profiel", "after": "100% volledigheid" }
+        ],
+        "problem": "Recruiters ontvingen honderden mails en WhatsApp-berichten per week. Kandidateninformatie stond verspreid over inboxen en spreadsheets waardoor intakegesprekken dagen duurden.",
+        "build": [
+          "WhatsApp intake-assistent die profielvragen stelt en ontbrekende info aanvult.",
+          "Airtable scorecard met automatische prioritering en toewijzing aan recruiters.",
+          "Power BI overzicht voor daily stand-ups met pipeline status."
+        ],
+        "result": [
+          "Recruiters werken enkel nog met voor-gekwalificeerde profielen.",
+          "Managers zien realtime bottlenecks en kunnen capaciteit bijsturen.",
+          "Volledige GDPR logging in SharePoint zonder extra werk."
+        ],
+        "flow": [
+          "Inbox → WhatsApp intake",
+          "Agent verwerkt intake + scorecard",
+          "Taak in ATS + Slack notificatie naar recruiter"
+        ]
+      },
+      "abn-amro-ventures": {
+        "title": "ABN AMRO Ventures — dealflow scoring in realtime dashboards",
+        "quote": {
+          "text": "Elke ochtend starten we met een geprioriteerde lijst. Het team ziet exact waarom deals scoren, zonder spreadsheets.",
+          "author": "Investment Manager",
+          "role": "ABN AMRO Ventures"
+        },
+        "kpis": [
+          { "label": "Handmatig Excel-werk", "before": "280 uur/kwartaal", "after": "40 uur/kwartaal" },
+          { "label": "Deal scoring nauwkeurigheid", "before": "intepretatie per partner", "after": "87% match met won deal" },
+          { "label": "Signalering van pipeline-issues", "before": "Ad hoc", "after": "Automatische alerts" }
+        ],
+        "problem": "Dealflow kwam binnen via e-mail en formulieren maar verdween in losse Excel-sheets. Partners misten overzicht en prioriteit.",
+        "build": [
+          "Parser die e-mail en Formsort leads in Airtable centraliseert.",
+          "AI scoring model op historische deals en teamnotities.",
+          "Power BI dashboard met status, alerts en investeringsargumenten."
+        ],
+        "result": [
+          "Partners zien dagelijks topkansen met volledige context.",
+          "Scoring is transparant waardoor beslissingen sneller vallen.",
+          "Operations-team hoeft geen spreadsheets meer bij te werken."
+        ],
+        "flow": [
+          "Inbox/Formsort → Airtable intake",
+          "AI score + teamreview",
+          "Power BI + Slack daily digest"
+        ]
+      },
+      "cm-com-support": {
+        "title": "CM.com Support — hybride AI-agent vangt 62% tickets af",
+        "quote": {
+          "text": "Klanten krijgen direct antwoord en agents krijgen context, transcript en oplossing. Ons team focust op uitzonderingen.",
+          "author": "Head of Support",
+          "role": "CM.com"
+        },
+        "kpis": [
+          { "label": "Ticket backlog", "before": "100%", "after": "53%" },
+          { "label": "CSAT", "before": "4,1", "after": "4,6" },
+          { "label": "Gemiddelde afhandeltijd", "before": "12 min", "after": "8 min" }
+        ],
+        "problem": "Support werkte met meerdere kanalen en switchte continu tussen systemen. Veel vragen waren repetitief maar vereisten een medewerker.",
+        "build": [
+          "RAG agent op productdocumentatie en historische tickets.",
+          "Zendesk macro's met volledige context en voorgestelde oplossing.",
+          "WhatsApp follow-up die statusupdates automatisch verstuurt."
+        ],
+        "result": [
+          "62% van alle vragen opgelost zonder menselijk ingrijpen.",
+          "Supportmedewerkers besteden tijd aan edge cases.",
+          "Volledige audittrail voor compliance en kwaliteitsbewaking."
+        ],
+        "flow": [
+          "Inbox → AI triage",
+          "Agent antwoordt of zendesk ticket met context",
+          "WhatsApp update naar klant"
+        ]
+      }
+    },
+    "structure": {
+      "problem": "Probleem",
+      "build": "Wat we hebben gebouwd",
+      "result": "Resultaat",
+      "flow": "Zo werkt het",
+      "next": "Volgende stap",
+      "cta": "Wil je hetzelfde voor jouw team? Plan een gratis intake."
+    }
+  },
+  "pricing": {
+    "title": "Transparante tarieven voor elke schaal",
+    "subtitle": "Van snelle micro-automaties tot volledige configurators.",
+    "tiers": [
+      {
+        "id": "light",
+        "name": "Light Automations",
+        "tagline": "Snelle micro-automaties voor directe impact",
+        "price": "999",
+        "priceDisplay": "vanaf €999",
+        "priceNote": "Alle prijzen excl. btw. Exacte prijs afhankelijk van scope en integraties.",
+        "features": [
+          "Inbox-to-Action automatisering",
+          "Leads-naar-Booking flow",
+          "WhatsApp Helpdesk",
+          "Invoice Robot",
+          "Setup + Training inbegrepen",
+          "Support 30/60/90 dagen"
+        ],
+        "cta": "Bekijk Light oplossingen"
+      },
+      {
+        "id": "manufacturing",
+        "name": "Sales→BOM & Tekenpakketten",
+        "tagline": "Productie-klare oplossingen voor maakbedrijven",
+        "price": "1999",
+        "priceDisplay": "vanaf €1.999",
+        "priceNote": "Vanaf-prijs, exacte scope bepaald in intake.",
+        "features": [
+          "Sales→BOM Bridge",
+          "Drawing Pack Generator",
+          "ERP-connectors (Exact, SAP, Odoo)",
+          "Configuratie-validatie",
+          "Productie-klare output",
+          "Maatwerk integraties"
+        ],
+        "cta": "Bekijk Manufacturing oplossingen",
+        "highlight": true
+      },
+      {
+        "id": "configurators",
+        "name": "CPQ & Configure-to-Production",
+        "tagline": "Volledige configurators voor complexe producten",
+        "price": null,
+        "priceDisplay": "Prijs op aanvraag",
+        "priceNote": "Maatwerk—prijs op aanvraag. Laat uw use-case beoordelen in een intake.",
+        "features": [
+          "CPQ (Configure-Price-Quote) standaard",
+          "C2P (Configure-to-Production) advanced",
+          "3D visualisatie",
+          "Regel-engine voor validatie",
+          "Multi-level BOM output",
+          "Volledige ERP/PLM integratie"
+        ],
+        "cta": "Plan intake voor Configurators"
+      }
+    ],
+    "disclaimer": "Alle prijzen zijn vanaf-prijzen en exclusief btw. De definitieve prijs is afhankelijk van scope, aantal integraties, en maatwerk-vereisten.",
+    "cta": "Plan een intake",
+    "ctaSecondary": "Bereken jouw ROI"
+  },
+  "industries": {
+    "title": "Sectoren waar we dagelijks in bouwen",
+    "intro": "Kies je sector voor concrete use-cases en KPI's.",
+    "sectors": [
+      {
+        "slug": "diensten",
+        "name": "Diensten",
+        "problem": "Teams verdrinken in mails en losse WhatsApp-gesprekken.",
+        "usecases": [
+          "Inbox-triage van offerte naar taak",
+          "WhatsApp-afspraken & herinneringen"
+        ],
+        "kpi": "+30% meer afgeronde opdrachten binnen 6 weken"
+      },
+      {
+        "slug": "retail-ecommerce",
+        "name": "Retail & e-commerce",
+        "problem": "Support en sales lopen door elkaar waardoor follow-ups sneuvelen.",
+        "usecases": [
+          "Lead-to-chat → order automatiseren",
+          "Support-triage + RMA updates"
+        ],
+        "kpi": "-45% afhandeltijd tickets, +18% herhaalbestellingen"
+      },
+      {
+        "slug": "bouw",
+        "name": "Bouw",
+        "problem": "Planning en materialen gaan via spreadsheets en losse telefoontjes.",
+        "usecases": [
+          "Inmeet-afspraken via WhatsApp plannen",
+          "Materiaalbestellingen automatisch bundelen"
+        ],
+        "kpi": "-4 uur planning per project, +12% marge"
+      }
+    ],
+    "cta": "Meer weten? Plan een gratis intake."
+  },
+  "security": {
+    "title": "Security & compliance",
+    "sections": [
+      {
+        "title": "Data-locatie & verwerking",
+        "copy": "We hosten primair binnen de EU en documenteren alle datastromen."
+      },
+      {
+        "title": "Toestemming & logging",
+        "copy": "Consent flows en logging ingebouwd; audit-trails beschikbaar binnen 24 uur."
+      },
+      {
+        "title": "DPA per tool",
+        "copy": "We leveren DPA's per vendor en borgen contractueel gebruik."
+      },
+      {
+        "title": "Toegang & retentie",
+        "copy": "Least-privilege toegang, automatische revoke, retentie per proces."
+      }
+    ],
+    "cta": "Vraag ons security-overzicht (PDF) op."
+  },
+  "integrations": {
+    "title": "Integraties die we dagelijks koppelen",
+    "subtitle": "We verbinden waar jullie al werken.",
+    "items": [
+      "Gmail / Outlook",
+      "ClickUp",
+      "Trello",
+      "WhatsApp Cloud API",
+      "Make",
+      "Zapier",
+      "n8n"
+    ]
+  },
+  "insights": {
+    "title": "Insights",
+    "subtitle": "Korte playbooks met direct toepasbare flows en meetplan.",
+    "posts": [
+      {
+        "slug": "whatsapp-first-funnels",
+        "title": "WhatsApp-first funnels in 5 dagen live",
+        "summary": "Gebruik intake-scripts, opvolgflows en KPI-dashboard om sales te versnellen.",
+        "cta": "Lees het playbook"
+      },
+      {
+        "slug": "inbox-to-action",
+        "title": "Inbox-to-Action blueprint",
+        "summary": "Zo bouw je een intake die taken in ClickUp of Trello automatisch aanmaakt.",
+        "cta": "Lees het playbook"
+      },
+      {
+        "slug": "support-bots",
+        "title": "Support bots met menselijke hand-off",
+        "summary": "Combineer RAG, Zendesk macro's en WhatsApp-updates voor tevreden klanten.",
+        "cta": "Lees het playbook"
+      }
+    ],
+    "detailPlaceholder": "Deze insight is work-in-progress. We verzamelen nu de nieuwste resultaten en screenshots zodat je precies ziet hoe onboarding, automatisering en KPI-tracking werken. Laat je e-mail achter via de intake en we sturen je als eerste de definitieve versie.",
+    "detailInvite": "Wil je ondertussen sparren over hoe deze flow in jouw organisatie past? Plan een intake zodat we je stack en processen kunnen doornemen."
+  },
+  "blueprint": {
+    "title": "Inbox-to-Action Blueprint",
+    "subtitle": "Download de PDF met checklists voor intake, bouw en adoptie.",
+    "description": "Alles wat je nodig hebt om e-mails en WhatsApp-berichten automatisch naar actie om te zetten.",
+    "bullets": [
+      "Intake checklist voor interviews en systeem-audit",
+      "Blueprint template voor flows, triggers en KPIs",
+      "Adoptieplan + training checklist voor je team"
+    ],
+    "cta": "Ontvang de blueprint"
+  },
+  "roi": {
+    "title": "ROI-calculator",
+    "subtitle": "Bereken binnen 2 minuten het effect van automatisering op je team.",
+    "steps": [
+      "Voer volumes en huidige afhandeltijd in",
+      "Kies de processen die we automatiseren",
+      "Zie direct besparing en extra omzetpotentieel"
+    ],
+    "cta": "Start de calculator"
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "subtitle": "Antwoorden op de belangrijkste vragen.",
+    "questions": [
+      {
+        "q": "Hoe lang duurt een gemiddeld project?",
+        "a": "De meeste trajecten gaan live binnen 2-6 weken, afhankelijk van de scope. We werken in sprints van twee weken met wekelijkse demos."
+      },
+      {
+        "q": "Welke systemen koppelen jullie?",
+        "a": "We werken dagelijks met Zapier, Make, n8n, WhatsApp Cloud API, ClickUp, Trello, Airtable en custom APIs. Staat jullie stack er niet tussen? Grote kans dat we het alsnog kunnen verbinden."
+      },
+      {
+        "q": "Hoe zit het met beheer na livegang?",
+        "a": "Je krijgt documentatie, logging en monitoring. We trainen je team en bieden optioneel een retainer voor optimalisaties of nieuwe flows."
+      },
+      {
+        "q": "Hoe waarborgen jullie security?",
+        "a": "We documenteren datastromen, leveren DPA's per vendor en bouwen automatische logging en toegangsbeheer. Meer details staan in het security-overzicht."
+      },
+      {
+        "q": "Wat als we al een intern team hebben?",
+        "a": "We werken vaak samen met interne teams. Onze blueprint en flows zijn opgezet zodat jullie ze zelf kunnen beheren of uitbreiden."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Wat klanten zeggen",
+    "subtitle": "Concrete resultaten van bedrijven die al live zijn.",
+    "items": [
+      {
+        "quote": "Recruiters hebben eindelijk zicht op welke kandidaten klaar zijn voor een call. Alles staat al in het ATS met de juiste context.",
+        "author": "Teamlead Recruitment",
+        "company": "Randstad Inhouse",
+        "result": "Van 3 dagen intake naar 3 uur"
+      },
+      {
+        "quote": "Elke ochtend starten we met een geprioriteerde lijst. Het team ziet exact waarom deals scoren, zonder spreadsheets.",
+        "author": "Investment Manager",
+        "company": "ABN AMRO Ventures",
+        "result": "280 uur Excel-werk → 40 uur/kwartaal"
+      },
+      {
+        "quote": "Klanten krijgen direct antwoord en agents krijgen context, transcript en oplossing. Ons team focust op uitzonderingen.",
+        "author": "Head of Support",
+        "company": "CM.com",
+        "result": "62% tickets opgelost zonder mens"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Klaar om te starten?",
+    "subtitle": "Plan een gratis intake en ontdek hoe AI-automatisering jouw team versnelt.",
+    "button": "Plan een intake"
+  },
+  "contact": {
+    "title": "Klaar om slimmer te werken?",
+    "subtitle": "Mail ons op info@caribbeanazure.com of bel +31 6 87879092.",
+    "formTitle": "Stuur ons een bericht",
+    "formIntro": "Deel je vraag en we nemen snel contact op.",
+    "form": {
+      "name": "Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer (optioneel)",
+      "message": "Bericht",
+      "submit": "Verstuur",
+      "success": "Bedankt! We nemen snel contact op.",
+      "error": "Er ging iets mis. Probeer het opnieuw of mail ons direct."
+    }
+  },
+  "footer": {
+    "tagline": "Slimme automatisering voor Nederlandse mkb's.",
+    "rights": "Alle rechten voorbehouden",
+    "company": "Organisatie",
+    "services": "Diensten",
+    "resources": "Resources",
+    "legal": "Juridisch",
+    "security": "Security-overzicht",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "solutions": {
+      "overview": "Alle oplossingen",
+      "light": "Light Automations",
+      "manufacturing": "Sales→BOM & Tekenpakketten",
+      "configurators": "CPQ & Configurators"
+    }
+  },
+  "whatsapp": {
+    "label": "Vraag iets via WhatsApp"
+  },
+  "language": {
+    "switcher": "Taal",
+    "nl": "Nederlands",
+    "en": "English"
+  },
+  "demo": {
+    "title": "Bekijk de 90-seconden demo",
+    "subtitle": "We laten zien hoe inbox, AI-agent en WhatsApp follow-up samenwerken in één flow.",
+    "cta": "Plan een intake"
+  },
+  "cookie": {
+    "message": "We gebruiken cookies om uw ervaring te verbeteren. U kunt uw voorkeuren beheren.",
+    "accept": "Accepteren",
+    "reject": "Afwijzen",
+    "settings": "Instellingen"
+  },
+  "trust": {
+    "title": "Veilig en GDPR-proof",
+    "items": [
+      "EU-hosting",
+      "DPA beschikbaar",
+      "n8n self-host optie"
+    ]
+  },
+  "common": {
+    "from": "vanaf",
+    "learnMore": "Meer informatie",
+    "bookIntake": "Plan een intake",
+    "popular": "Populair",
+    "recommended": "Aanbevolen",
+    "priceOnRequest": "Prijs op aanvraag",
+    "month": "maand",
+    "months": "maanden",
+    "exclVat": "excl. btw",
+    "viewAllPricing": "Bekijk alle tarieven",
+    "calculateROI": "Bereken jouw ROI",
+    "example": "Voorbeeld:",
+    "included": "Inbegrepen bij elke",
+    "readyForMore": "Klaar voor meer?",
+    "submitting": "Bezig...",
+    "people": "personen",
+    "hours": "uur",
+    "hoursPerYear": "uur/jaar",
+    "viewAllSolutions": "Bekijk alle oplossingen",
+    "tier1": "Tier 1",
+    "tier2": "Tier 2",
+    "tier3": "Tier 3",
+    "exactPriceNote": "exacte prijs afhankelijk van scope",
+    "concreteUseCases": "Concrete use-cases",
+    "includedWithEvery": "Inbegrepen bij elke",
+    "manufacturingSolutions": "Manufacturing oplossingen",
+    "configuratorSolutions": "Configurator oplossingen",
+    "needFullConfig": "Volledige product configuratie nodig?",
+    "needMoreComplex": "Complexere processen nodig? Bekijk onze Manufacturing en Configurator oplossingen.",
+    "tier2Recommended": "Tier 2 · Aanbevolen voor maakbedrijven",
+    "tier3Custom": "Tier 3 · Maatwerk",
+    "exclVatFromPrice": "excl. btw · vanaf-prijs, exacte scope bepaald in intake",
+    "exclVatOnRequest": "Maatwerk—prijs op aanvraag. Laat uw use-case beoordelen in een intake.",
+    "whatWeBuildForYou": "Wat we bouwen voor je",
+    "productionReadySolutions": "Productie-klare oplossingen die sales direct koppelen aan manufacturing",
+    "featuresCapabilities": "Functionaliteit & mogelijkheden",
+    "twoLevelsConfig": "Twee niveaus van configuratie",
+    "cpqToProduction": "Van standaard CPQ tot volledige productie-integratie",
+    "concreteExamples": "Concrete voorbeelden",
+    "howConfiguratorsWork": "Zo werken configurators in de praktijk",
+    "challenge": "Uitdaging:",
+    "solution": "Oplossing:",
+    "readyForConfigurator": "Klaar voor een configurator?",
+    "bookIntakeConfigurator": "Plan een intake om jouw product, varianten en productieproces door te nemen. We beoordelen samen of een configurator de beste oplossing is.",
+    "viewCases": "Bekijk cases",
+    "cpqConfigDescription": "Bekijk onze CPQ & Configure-to-Production oplossingen voor complexe producten met duizenden varianten.",
+    "roiCalculator": {
+      "badge": "ROI Calculator",
+      "title": "Wat levert automatisering jou op?",
+      "subtitle": "Bereken in 60 seconden hoeveel tijd en geld je bespaart met automation",
+      "input": {
+        "title": "Je situatie",
+        "description": "Pas de schuifjes aan naar je huidige situatie",
+        "teamSize": {
+          "label": "Teamgrootte",
+          "min": "1 persoon",
+          "max": "50+ mensen"
+        },
+        "hoursPerWeek": {
+          "label": "Uren handmatig werk per week",
+          "min": "5 uur/week",
+          "max": "40 uur/week"
+        },
+        "hourlyRate": {
+          "label": "Gemiddeld uurtarief",
+          "min": "€25/uur",
+          "max": "€150/uur"
+        }
+      },
+      "results": {
+        "yearlySavings": "Jaarlijkse besparing",
+        "roi": "ROI (eerste jaar)",
+        "payback": "Terugverdiend in",
+        "investment": "Investering"
+      },
+      "graph": {
+        "title": "Cumulatieve besparing (24 maanden)",
+        "xAxisLabel": "Maanden",
+        "tooltipMonth": "Maand",
+        "breakevenText": "Breakeven punt na",
+        "totalSavingsText": "Totale besparing na 2 jaar:"
+      },
+      "cta": {
+        "button": "Ontvang je persoonlijke blueprint",
+        "footer": "Vrijblijvend gesprek · Reactie binnen 24 uur"
+      },
+      "disclaimer": {
+        "bold": "Let op:",
+        "text": "De berekening is een voorbeeld en geen garantie. Werkelijke resultaten variëren per proces en organisatie."
+      }
+    },
+    "contactForm": {
+      "fields": {
+        "name": {
+          "label": "Naam",
+          "placeholder": "Uw naam",
+          "required": "Naam moet minimaal 2 karakters zijn"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "uw.email@voorbeeld.nl",
+          "invalid": "Ongeldig emailadres"
+        },
+        "phone": {
+          "label": "Telefoon (optioneel)",
+          "placeholder": "+31 6 1234 5678"
+        },
+        "message": {
+          "label": "Bericht",
+          "placeholder": "Vertel ons waar we u mee kunnen helpen...",
+          "required": "Bericht moet minimaal 10 karakters zijn"
+        }
+      },
+      "status": {
+        "success": "Bedankt! We nemen spoedig contact op.",
+        "error": "Er ging iets mis. Probeer het opnieuw.",
+        "sending": "Verzenden..."
+      },
+      "submit": "Verstuur",
+      "requiredField": "*"
+    }
+  },
+  "solutions": {
+    "title": "Oplossingen voor elke schaal",
+    "subtitle": "Van snelle wins tot volledige productie-integratie",
+    "cta": "Niet zeker? Plan een intake.",
+    "light": {
+      "title": "Light Automations",
+      "subtitle": "Snelle micro-automaties voor directe impact",
+      "description": "Kleine, gerichte automaties die binnen dagen live gaan en direct resultaat opleveren.",
+      "price": "999",
+      "useCases": [
+        {
+          "name": "Inbox-to-Action",
+          "description": "E-mails automatisch naar taken in ClickUp/Trello/Teams",
+          "example": "Alle mails met 'offerte' → high priority task binnen 30 sec"
+        },
+        {
+          "name": "Leads-naar-Booking",
+          "description": "Website leads direct naar kalender + WhatsApp bevestiging",
+          "example": "Formulier invullen → kalenderlink + WhatsApp binnen 2 min"
+        },
+        {
+          "name": "WhatsApp Helpdesk",
+          "description": "FAQ bot + doorsturen naar team met context",
+          "example": "62% vragen direct beantwoord, rest met volledige context"
+        },
+        {
+          "name": "Invoice Robot",
+          "description": "Facturen automatisch verwerken en boeken",
+          "example": "PDF → data extractie → boeking in exact binnen 5 min"
+        }
+      ],
+      "includes": [
+        "Setup + configuratie",
+        "Training (2 uur)",
+        "Support 30/60/90 dagen",
+        "Documentatie + runbook"
+      ],
+      "cta": "Bekijk Light prijzen"
+    },
+    "manufacturing": {
+      "title": "Sales→BOM & Tekenpakketten",
+      "subtitle": "Productie-klare oplossingen voor maakbedrijven",
+      "description": "Vertaal sales-configuraties direct naar productie-documenten: BOMs, tekeningen, en ERP-integraties.",
+      "price": "1999",
+      "useCases": [
+        {
+          "name": "Sales→BOM Bridge",
+          "description": "Configurator output → multi-level BOM voor productie",
+          "example": "Sales vult configurator → complete BOM in ERP binnen minuten"
+        },
+        {
+          "name": "Drawing Pack Generator",
+          "description": "Automatisch technische tekeningen genereren per order",
+          "example": "Order configuratie → PDF tekenset + DXF/STEP files"
+        },
+        {
+          "name": "ERP-connectors",
+          "description": "Koppelingen met Exact, SAP, Odoo, en meer",
+          "example": "Order → artikelen, BOMs, routing automatisch in ERP"
+        }
+      ],
+      "features": [
+        "Multi-level BOM structuur",
+        "Validatie-regels engine",
+        "Template-based tekeningen",
+        "ERP/PLM integraties",
+        "Productie-klare output",
+        "Versie-beheer"
+      ],
+      "kpis": {
+        "title": "Typische resultaten",
+        "items": [
+          "85% minder fouten in productie",
+          "4x sneller van order naar productie",
+          "60% tijdsbesparing engineering"
+        ]
+      },
+      "cta": "Plan intake"
+    },
+    "configurators": {
+      "title": "CPQ & Configure-to-Production",
+      "subtitle": "Volledige configurators voor complexe producten",
+      "description": "Maatwerk configurators die van verkoop tot productie alles automatiseren. Voor producten met complexe regels en varianten.",
+      "price": null,
+      "types": [
+        {
+          "name": "CPQ (Configure-Price-Quote)",
+          "description": "Standaard configurator met pricing en offerte-generatie",
+          "features": [
+            "Visuele configurator interface",
+            "Regel-engine voor validatie",
+            "Dynamische pricing",
+            "PDF offerte-generatie",
+            "CRM integratie",
+            "Goedkeuringsflows"
+          ]
+        },
+        {
+          "name": "C2P (Configure-to-Production)",
+          "description": "Advanced: van configuratie naar volledige productie-documenten",
+          "features": [
+            "Alle CPQ features +",
+            "Multi-level BOM output",
+            "Technische tekeningen",
+            "CNC/CAM files",
+            "Materiaal-calculatie",
+            "Volledige ERP/PLM/MES integratie"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "industry": "Machinebouw",
+          "challenge": "Complexe machines met 1000+ varianten",
+          "solution": "C2P configurator: klant configureert → volledige BOM + tekeningen + CNC files"
+        },
+        {
+          "industry": "Meubelindustrie",
+          "challenge": "Maatwerk kasten met veel opties",
+          "solution": "CPQ met 3D preview → offerte + productie-instructies"
+        }
+      ],
+      "priceNote": "Maatwerk—prijs op aanvraag. Laat uw use-case beoordelen in een intake.",
+      "cta": "Plan intake voor Configurators"
+    },
+    "caseStudies": {
+      "title": "Bewezen resultaten",
+      "subtitle": "Concrete cases met meetbare impact",
+      "viewSolution": "Bekijk deze oplossing",
+      "case1": {
+        "sector": "Financiële dienstverlening",
+        "client": "Top-3 Nederlandse bank",
+        "challenge": "Het onboarden van nieuwe zakelijke klanten kostte 14 dagen door handmatige checks, documentverificatie en goedkeuringsprocessen.",
+        "result1": "89% sneller onboarden (van 14 naar 1,5 dag)",
+        "result2": "67% minder handmatige handelingen"
+      },
+      "case2": {
+        "sector": "SaaS / Communication Platform",
+        "client": "EU CPaaS scale-up (40M+ API calls/maand)",
+        "challenge": "Support team kreeg 200+ vragen per dag. 60% waren veelgestelde vragen over API documentatie, rate limits en billing. Response tijd: 8 uur.",
+        "result1": "71% van vragen automatisch opgelost",
+        "result2": "6,2 uur sneller response (van 8u → 1u 48min)"
+      },
+      "case3": {
+        "sector": "E-commerce / Groothandel",
+        "client": "B2B webshop (15.000+ SKUs)",
+        "challenge": "Voorraadgegevens in 3 systemen (ERP, webshop, magazijn) waren vaak niet gesynchroniseerd. Dit leidde tot overselling en handmatige correcties.",
+        "result1": "94% minder overselling incidenten",
+        "result2": "12 uur per week bespaard op handmatige sync"
+      }
+    }
+  },
+  "roiCalculator": {
+    "title": "ROI Calculator",
+    "subtitle": "Bereken de impact van automatisering op jouw team",
+    "presets": {
+      "light": "Light Automation",
+      "manufacturing": "Manufacturing",
+      "c2p": "Configure-to-Production"
+    },
+    "inputs": {
+      "teamSize": "Teamgrootte (personen)",
+      "hourlyRate": "Uurtarief (€)",
+      "hoursSavedPerWeek": "Uren bespaard per week",
+      "adoption": "Adoptie (%)"
+    },
+    "outputs": {
+      "weeklySavings": "Wekelijkse besparing",
+      "monthlySavings": "Maandelijkse besparing",
+      "annualSavings": "Jaarlijkse besparing",
+      "hoursSavedAnnually": "Uren bespaard per jaar"
+    },
+    "cta": {
+      "primary": "Plan een intake",
+      "secondary": "Exporteer als CSV",
+      "email": "E-mail me mijn berekening"
+    },
+    "hints": {
+      "teamSize": "Aantal mensen dat met het proces werkt",
+      "hourlyRate": "Gemiddeld uurtarief van het team",
+      "hoursSavedPerWeek": "Hoeveel uur per week bespaar je per persoon",
+      "adoption": "Welk percentage van het team gebruikt de oplossing"
+    },
+    "methodology": {
+      "title": "Hoe berekenen we ROI?",
+      "description": "Onze calculator gebruikt een conservatieve formule gebaseerd op 100+ projecten.",
+      "formula": "Wekelijkse besparing = Teamgrootte × Uurtarief × Uren bespaard × Adoptie"
+    },
+    "validation": {
+      "teamSize": "Teamgrootte moet tussen 1 en 1000 zijn",
+      "hourlyRate": "Uurtarief moet tussen €10 en €500 zijn",
+      "hoursSavedPerWeek": "Bespaarde uren moet tussen 0,5 en 40 zijn",
+      "adoption": "Adoptie moet tussen 10% en 100% zijn"
+    },
+    "error": {
+      "submit": "Er ging iets mis. Probeer het opnieuw."
+    },
+    "privacy": "We delen uw gegevens niet. Zie ons privacybeleid.",
+    "emailConsent": "Ik wil mijn berekening per e-mail ontvangen"
+  },
+  "about": {
+    "title": "Over ons",
+    "subtitle": "Caribbean Azure helpt kleine en middelgrote teams om slimmer te werken met automatisering. We brengen processen in kaart, koppelen de juiste tools en bouwen alleen wat echt nodig is. Geen buzzwords—wel meetbaar resultaat en overdraagbare workflows die jouw team begrijpt en beheert.",
+    "whatWeDoTitle": "Wat we doen",
+    "whatWeDoSubtitle": "Praktische automatisering voor dagelijks werk",
+    "whatWeDo": [
+      "Procesanalyse en snelle verbeterplannen",
+      "Koppelingen tussen e-mail, CRM, documenten en planning",
+      "Dashboards en notificaties voor status & opvolging"
+    ],
+    "howWeWorkTitle": "Hoe we werken",
+    "steps": [
+      {"title": "Intake", "description": "30 minuten kennismaken en je situatie in kaart brengen"},
+      {"title": "Proof-of-Value", "description": "1–2 weken: snel prototype om waarde te bewijzen"},
+      {"title": "Implementatie", "description": "Bouwen, testen en live zetten van de oplossing"},
+      {"title": "Kennisoverdracht", "description": "Jouw team leert het te begrijpen en te beheren"}
+    ],
+    "cta": "Plan een korte intake",
+    "complianceTitle": "Onafhankelijkheid & Compliance",
+    "complianceText": "Caribbean Azure werkt onafhankelijk en noemt geen klant- of werkgeversnamen. We communiceren alleen resultaten die we feitelijk kunnen aantonen."
+  },
+  "terms": {
+    "badge": "Algemene Voorwaarden",
+    "title": "Algemene voorwaarden",
+    "updated": "Laatst bijgewerkt: 24 oktober 2025",
+    "intro": "Deze algemene voorwaarden zijn van toepassing op alle overeenkomsten tussen Caribbean Azure en de opdrachtgever.",
+    "article1": {
+      "title": "Artikel 1 – Definities",
+      "items": [
+        "<strong>Opdrachtnemer:</strong> Caribbean Azure, gevestigd te Nederland",
+        "<strong>Opdrachtgever:</strong> De natuurlijke of rechtspersoon die met opdrachtnemer een overeenkomst aangaat",
+        "<strong>Diensten:</strong> Alle werkzaamheden die opdrachtnemer uitvoert, waaronder automatisering, webontwikkeling, AI-integraties, consultancy en training",
+        "<strong>Deliverable:</strong> Een concreet opgeleverd product of resultaat zoals een workflow, dashboard, website of rapportage",
+        "<strong>Blueprint:</strong> Een visueel plan met flowcharts, datastromen en technische specificaties"
+      ]
+    },
+    "article2": {
+      "title": "Artikel 2 – Toepasselijkheid",
+      "paragraphs": [
+        "2.1. Deze algemene voorwaarden zijn van toepassing op alle aanbiedingen, offertes en overeenkomsten tussen opdrachtnemer en opdrachtgever.",
+        "2.2. Afwijkingen van deze voorwaarden zijn alleen geldig indien schriftelijk overeengekomen.",
+        "2.3. De toepasselijkheid van eventuele inkoop- of andere voorwaarden van opdrachtgever wordt uitdrukkelijk van de hand gewezen.",
+        "2.4. Indien één of meerdere bepalingen in deze algemene voorwaarden nietig zijn, blijven de overige bepalingen volledig van kracht."
+      ]
+    },
+    "article3": {
+      "title": "Artikel 3 – Offerte en totstandkoming",
+      "paragraphs": [
+        "3.1. Alle offertes zijn vrijblijvend en 30 dagen geldig, tenzij anders vermeld.",
+        "3.2. Een overeenkomst komt tot stand na schriftelijke bevestiging door opdrachtnemer of bij aanvang van werkzaamheden.",
+        "3.3. Prijzen in offertes zijn exclusief BTW, tenzij anders vermeld.",
+        "3.4. Indien de opdrachtgever niet akkoord gaat met een offerte, vervalt deze automatisch na 30 dagen."
+      ]
+    },
+    "article4": {
+      "title": "Artikel 4 – Uitvoering van de opdracht",
+      "paragraphs": [
+        "4.1. Opdrachtnemer voert de overeenkomst naar beste kunnen uit, conform de state-of-the-art in de branche.",
+        "4.2. Opgeleverde deliverables worden getest voorafgaand aan oplevering. Opdrachtgever heeft 5 werkdagen om feedback te geven.",
+        "4.3. Opdrachtgever verstrekt tijdig alle benodigde informatie, toegangen en medewerking. Vertraging door de opdrachtgever kan leiden tot aanpassing van planning en kosten.",
+        "4.4. Opdrachtnemer heeft het recht om derden in te schakelen bij de uitvoering van de opdracht.",
+        "4.5. Genoemde doorlooptijden zijn indicatief en geen fatale termijnen, tenzij uitdrukkelijk schriftelijk anders overeengekomen."
+      ]
+    },
+    "article5": {
+      "title": "Artikel 5 – Prijzen en betaling",
+      "paragraphs": [
+        "5.1. Alle prijzen zijn exclusief BTW en exclusief kosten voor externe tools (zoals Zapier, Make, API-licenties).",
+        "5.2. Betaling dient te geschieden binnen 14 dagen na factuurdatum, tenzij anders overeengekomen.",
+        "5.3. Bij projecten boven €5.000 kan opdrachtnemer een voorschotfactuur van 30% sturen bij ondertekening.",
+        "5.4. Bij overschrijding van de betalingstermijn is opdrachtgever in verzuim zonder nadere ingebrekestelling. Opdrachtnemer heeft het recht 1% rente per maand in rekening te brengen.",
+        "5.5. Alle kosten van incasso, zowel gerechtelijk als buitengerechtelijk, komen voor rekening van de opdrachtgever."
+      ]
+    },
+    "article6": {
+      "title": "Artikel 6 – Intellectueel eigendom",
+      "paragraphs": [
+        "6.1. Alle intellectuele eigendomsrechten op door opdrachtnemer ontwikkelde of geleverde werken berusten bij opdrachtnemer, tenzij schriftelijk anders overeengekomen.",
+        "6.2. Opdrachtgever verkrijgt een niet-exclusief, niet-overdraagbaar gebruiksrecht op de opgeleverde deliverables voor eigen gebruik binnen de organisatie.",
+        "6.3. Het is opdrachtgever niet toegestaan de geleverde werken te verveelvoudigen, te verkopen of ter beschikking te stellen aan derden zonder voorafgaande schriftelijke toestemming van opdrachtnemer.",
+        "6.4. Maatwerk code en scripts blijven eigendom van opdrachtnemer, maar opdrachtgever krijgt volledige toegang en wijzigingsrechten voor intern gebruik.",
+        "6.5. Herbruikbare componenten, templates en frameworks die opdrachtnemer heeft ontwikkeld blijven eigendom van opdrachtnemer en mogen worden hergebruikt voor andere projecten."
+      ]
+    },
+    "article7": {
+      "title": "Artikel 7 – Aansprakelijkheid",
+      "paragraphs": [
+        "7.1. Opdrachtnemer is uitsluitend aansprakelijk voor directe schade die het gevolg is van opzet of bewuste roekeloosheid van opdrachtnemer.",
+        "7.2. Aansprakelijkheid voor indirecte schade, waaronder gevolgschade, gederfde winst, gemiste besparingen en schade door bedrijfsstagnatie, is uitgesloten.",
+        "7.3. De aansprakelijkheid van opdrachtnemer is beperkt tot maximaal het factuurbedrag van de betreffende opdracht, met een maximum van €25.000.",
+        "7.4. Opdrachtgever is verantwoordelijk voor het maken van back-ups van eigen data en systemen. Opdrachtnemer is niet aansprakelijk voor dataverlies.",
+        "7.5. Opdrachtnemer is niet aansprakelijk voor storingen, uitval of wijzigingen in externe systemen en API's van derden (zoals Zapier, Make, ClickUp, Google, Microsoft)."
+      ]
+    },
+    "article8": {
+      "title": "Artikel 8 – Garantie en onderhoud",
+      "paragraphs": [
+        "8.1. Opdrachtnemer garandeert dat opgeleverde deliverables voldoen aan de in het blueprint beschreven specificaties.",
+        "8.2. Gedurende de overeengekomen support-periode (standaard 30 dagen na oplevering) lost opdrachtnemer bugs en functionele problemen kosteloos op.",
+        "8.3. Na afloop van de support-periode kunnen bugs en aanpassingen worden gefactureerd op basis van uurtarief of via een support-abonnement.",
+        "8.4. De garantie vervalt indien opdrachtgever of derden zonder toestemming wijzigingen hebben aangebracht in de opgeleverde systemen."
+      ]
+    },
+    "article9": {
+      "title": "Artikel 9 – Geheimhouding",
+      "paragraphs": [
+        "9.1. Beide partijen verplichten zich tot geheimhouding van alle vertrouwelijke informatie die zij in het kader van de overeenkomst van elkaar hebben verkregen.",
+        "9.2. Opdrachtnemer mag de naam van opdrachtgever en een algemene beschrijving van het project gebruiken voor referentiedoeleinden, tenzij schriftelijk anders overeengekomen.",
+        "9.3. Op verzoek van opdrachtgever kan een aparte Non-Disclosure Agreement (NDA) worden afgesloten voorafgaand aan de offerte-fase."
+      ]
+    },
+    "article10": {
+      "title": "Artikel 10 – Ontbinding en opzegging",
+      "paragraphs": [
+        "10.1. Beide partijen kunnen de overeenkomst schriftelijk opzeggen met een opzegtermijn van 30 dagen, tenzij anders overeengekomen.",
+        "10.2. Bij voortijdige beëindiging door opdrachtgever blijft deze verplicht tot betaling van reeds verrichte werkzaamheden en gemaakte kosten.",
+        "10.3. Opdrachtnemer heeft het recht de overeenkomst met onmiddellijke ingang te beëindigen indien opdrachtgever zijn betalingsverplichtingen niet nakomt of failliet wordt verklaard.",
+        "10.4. Bij retainer-overeenkomsten geldt een opzegtermijn van 60 dagen tegen het einde van een kalendermaand."
+      ]
+    },
+    "article11": {
+      "title": "Artikel 11 – Toepasselijk recht en geschillen",
+      "paragraphs": [
+        "11.1. Op alle overeenkomsten tussen opdrachtnemer en opdrachtgever is uitsluitend Nederlands recht van toepassing.",
+        "11.2. Geschillen worden voorgelegd aan de bevoegde rechter in het arrondissement waar opdrachtnemer is gevestigd.",
+        "11.3. Partijen zullen eerst trachten een geschil in onderling overleg op te lossen alvorens een beroep te doen op de rechter."
+      ]
+    }
+  },
+  "privacy": {
+    "badge": "Privacy Policy",
+    "title": "Privacyverklaring",
+    "updated": "Laatst bijgewerkt: 24 oktober 2025",
+    "intro": "Caribbean Azure respecteert je privacy en verwerkt je gegevens conform de AVG. Deze verklaring legt uit welke gegevens we verzamelen, waarom, en hoe je je rechten uitoefent.",
+    "section1": {
+      "title": "1. Wie is verantwoordelijk?",
+      "controller": "<strong>Verwerkingsverantwoordelijke:</strong><br />Caribbean Azure<br />E-mail: privacy@caribbeanazure.com",
+      "text": "Caribbean Azure is verantwoordelijk voor de verwerking van persoonsgegevens zoals beschreven in deze privacyverklaring."
+    },
+    "section2": {
+      "title": "2. Welke gegevens verzamelen we?",
+      "viaForms": "Via contactformulieren:",
+      "viaFormsItems": [
+        "Naam",
+        "E-mailadres",
+        "Telefoonnummer (optioneel)",
+        "Bedrijfsnaam (optioneel)",
+        "Bericht of vraag",
+        "ROI calculator resultaten (indien ingevuld)"
+      ],
+      "automatic": "Automatisch verzameld:",
+      "automaticItems": [
+        "IP-adres (geanonimiseerd)",
+        "Browser type en versie",
+        "Bezochte pagina's en tijdstip",
+        "Referrer URL"
+      ],
+      "summary": "We verzamelen <strong>alleen gegevens die je actief invult</strong> of die noodzakelijk zijn voor de werking van de website."
+    },
+    "section3": {
+      "title": "3. Waarom verwerken we je gegevens?",
+      "contact": "Contact en offerte-aanvragen:",
+      "contactItems": [
+        "Om je vraag te beantwoorden",
+        "Om een offerte of voorstel op te stellen",
+        "Om je te informeren over onze diensten (alleen als je hiervoor toestemming geeft)"
+      ],
+      "analytics": "Website analytics:",
+      "analyticsItems": [
+        "Om te begrijpen hoe bezoekers de website gebruiken",
+        "Om de gebruikerservaring te verbeteren",
+        "Om technische problemen te identificeren"
+      ],
+      "legal": "<strong>Rechtsgrond:</strong> We verwerken je gegevens op basis van je toestemming, uitvoering van een overeenkomst, of gerechtvaardigd belang (analytics)."
+    },
+    "section4": {
+      "title": "4. Hoe lang bewaren we je gegevens?",
+      "items": [
+        "<strong>Contactformulieren:</strong> 2 jaar na laatste contact (tenzij er een overeenkomst is)",
+        "<strong>Klantgegevens:</strong> 7 jaar na einde overeenkomst (wettelijke bewaarplicht)",
+        "<strong>Analytics data:</strong> 14 maanden (geanonimiseerd)",
+        "<strong>Marketing toestemming:</strong> Tot je deze intrekt"
+      ],
+      "deletion": "Na afloop van de bewaartermijn verwijderen we je gegevens definitief, tenzij een wettelijke bewaarplicht van toepassing is."
+    },
+    "section5": {
+      "title": "5. Delen we je gegevens met derden?",
+      "intro": "We verkopen of verhuren je gegevens <strong>nooit</strong> aan derden. We delen alleen gegevens met partijen die ons helpen onze diensten te leveren:",
+      "processors": "Verwerkers (sub-processors):",
+      "processorsList": [
+        "<strong>Vercel:</strong> Website hosting (EU/VS, AVG-conform)",
+        "<strong>Resend:</strong> E-mail verzending (EU, AVG-conform)",
+        "<strong>ClickUp:</strong> CRM en projectmanagement (VS, AVG-conform)",
+        "<strong>Plausible Analytics:</strong> Privacy-vriendelijke analytics (EU)"
+      ],
+      "dpa": "Met alle verwerkers hebben we een verwerkersovereenkomst afgesloten conform de AVG. Meer details vind je op onze <a href=\"/security\" class=\"text-[color:var(--brand)] hover:underline\">/security pagina</a>."
+    },
+    "section6": {
+      "title": "6. Jouw rechten",
+      "intro": "Je hebt de volgende rechten onder de AVG:",
+      "rights": [
+        "<strong>Recht op inzage:</strong> Je mag vragen welke gegevens we van je hebben",
+        "<strong>Recht op rectificatie:</strong> Je kunt onjuiste gegevens laten corrigeren",
+        "<strong>Recht op verwijdering:</strong> Je kunt vragen om je gegevens te verwijderen",
+        "<strong>Recht op beperking:</strong> Je kunt verzoeken om verwerking te beperken",
+        "<strong>Recht op dataportabiliteit:</strong> Je kunt je gegevens in een gestructureerd formaat opvragen",
+        "<strong>Recht van bezwaar:</strong> Je kunt bezwaar maken tegen verwerking",
+        "<strong>Recht om toestemming in te trekken:</strong> Als we werken op basis van toestemming"
+      ],
+      "exercise": "Om je rechten uit te oefenen, stuur een e-mail naar <a href=\"mailto:privacy@caribbeanazure.com\" class=\"text-[color:var(--brand)] hover:underline\">privacy@caribbeanazure.com</a>. We reageren binnen 30 dagen.",
+      "complaint": "Ben je het niet eens met hoe we je gegevens verwerken? Je kunt een klacht indienen bij de <a href=\"https://autoriteitpersoonsgegevens.nl\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[color:var(--brand)] hover:underline\">Autoriteit Persoonsgegevens</a>."
+    },
+    "section7": {
+      "title": "7. Beveiliging",
+      "intro": "We nemen beveiliging serieus en implementeren passende technische en organisatorische maatregelen:",
+      "measures": [
+        "HTTPS/TLS encryptie voor alle data in transit",
+        "Toegangscontrole en autorisatie (Role-Based Access Control)",
+        "Gegevens worden versleuteld opgeslagen waar mogelijk",
+        "Logging en monitoring van systeemactiviteit",
+        "Regelmatige beveiligingsupdates en patches"
+      ],
+      "moreInfo": "Meer details over onze beveiligingsmaatregelen vind je op de <a href=\"/security\" class=\"text-[color:var(--brand)] hover:underline\">/security pagina</a>."
+    },
+    "section8": {
+      "title": "8. Cookies en tracking",
+      "intro": "Deze website gebruikt cookies. Je kunt je voorkeuren aanpassen via de cookie-banner die bij je eerste bezoek verschijnt, of via de instellingen onderaan deze pagina.",
+      "functional": "Functionele cookies (altijd actief):",
+      "functionalItems": [
+        "Cookie consent voorkeuren",
+        "Sessie cookies voor contactformulieren"
+      ],
+      "analyticsLabel": "Analytics cookies (optioneel):",
+      "analyticsItems": [
+        "Plausible Analytics (privacy-vriendelijk, geen persoonlijke data)"
+      ],
+      "noTracking": "We gebruiken <strong>geen</strong> Google Analytics, Facebook Pixel of andere invasieve tracking tools."
+    },
+    "section9": {
+      "title": "9. Wijzigingen",
+      "text1": "We kunnen deze privacyverklaring aanpassen. De meest recente versie vind je altijd op deze pagina. De datum van de laatste wijziging staat bovenaan dit document.",
+      "text2": "Bij grote wijzigingen informeren we je via e-mail (als we je e-mailadres hebben)."
+    },
+    "section10": {
+      "title": "10. Contact",
+      "intro": "Heb je vragen over deze privacyverklaring of wil je je rechten uitoefenen?",
+      "details": "<strong>E-mail:</strong> <a href=\"mailto:privacy@caribbeanazure.com\" class=\"text-[color:var(--brand)] hover:underline\">privacy@caribbeanazure.com</a><br /><strong>Correspondentieadres:</strong> Caribbean Azure, Nederland"
+    }
+  },
+  "casesPage": {
+    "title": "Cases: meetbare impact",
+    "subtitle": "Hoe we MKB en scale-ups helpen met procesautomatisering en AI. Alle cases zijn geanonimiseerd om vertrouwelijkheid te waarborgen.",
+    "caseLabel": "Case",
+    "sectionProblem": "Probleem",
+    "sectionApproach": "Aanpak",
+    "sectionResults": "Resultaat",
+    "cta": {
+      "title": "Herken je deze uitdagingen?",
+      "description": "Plan een vrijblijvend gesprek van 45 minuten. We bespreken je situatie en delen concrete quick wins die je direct kunt toepassen.",
+      "buttonIntake": "Plan een intake",
+      "buttonROI": "Bereken je ROI",
+      "footer": "Reactie binnen 24 uur · Geen verplichtingen"
+    },
+    "caseStudies": [
+      {
+        "id": "fintech-onboarding",
+        "client": "Top-3 Nederlandse bank",
+        "sector": "Financiële dienstverlening",
+        "challenge": "Het onboarden van nieuwe zakelijke klanten kostte 14 dagen door handmatige checks, documentverificatie en goedkeuringsprocessen. Dit leidde tot frustratie bij klanten en verhoogde drop-off rates.",
+        "approach": [
+          "Gebouwd: AI document parser voor KVK-uittreksels en identiteitsbewijzen met 98% nauwkeurigheid",
+          "Geïntegreerd: Realtime KVK API check + AML screening via externe providers",
+          "Geautomatiseerd: Goedkeuringsworkflow met intelligente routing op basis van risicoscore",
+          "Opgezet: Dashboard voor compliance team met real-time inzicht in status"
+        ],
+        "results": [
+          "89% sneller onboarden (van 14 naar 1,5 dag)",
+          "67% minder handmatige handelingen",
+          "34% hogere conversie door snellere afhandeling"
+        ]
+      },
+      {
+        "id": "saas-customer-support",
+        "client": "EU CPaaS scale-up (40M+ API calls/maand)",
+        "sector": "SaaS / Communication Platform",
+        "challenge": "Support team kreeg 200+ vragen per dag via e-mail, Slack en tickets. 60% waren veelgestelde vragen over API documentatie, rate limits en billing. Gemiddelde response tijd: 8 uur.",
+        "approach": [
+          "Gebouwd: AI chatbot getraind op 2 jaar support tickets + API docs",
+          "Geïntegreerd: Slack, Intercom en ticketing systeem (Zendesk) via unified interface",
+          "Geautomatiseerd: Intelligente triage (simpel → bot, complex → mens met context)",
+          "Opgezet: Self-service portal voor API key management en usage dashboards"
+        ],
+        "results": [
+          "71% van vragen automatisch opgelost",
+          "6,2 uur sneller response (van 8u → 1u 48min)",
+          "3 FTE vrijgespeeld voor proactieve support"
+        ]
+      },
+      {
+        "id": "ecommerce-inventory",
+        "client": "B2B webshop (15.000+ SKUs)",
+        "sector": "E-commerce / Groothandel",
+        "challenge": "Voorraadgegevens in 3 systemen (ERP, webshop, magazijn) waren vaak niet gesynchroniseerd. Dit leidde tot overselling, teleurgestelde klanten en handmatige correcties door het team.",
+        "approach": [
+          "Gebouwd: Real-time sync tussen ERP (Exact), Shopify en WMS met conflict resolution",
+          "Geautomatiseerd: Dagelijkse voorraadrapportage + alerts bij afwijkingen >5%",
+          "Geïntegreerd: Automatische prijsaanpassingen op basis van voorraadniveaus en seizoen",
+          "Opgezet: Predictive reordering dashboard op basis van historische verkoop"
+        ],
+        "results": [
+          "94% minder overselling incidenten",
+          "12 uur per week bespaard op handmatige sync",
+          "18% hogere voorraadrotatie door slimmere inkoop"
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "badge": "Neem contact op",
+    "title": "Laten we kennismaken",
+    "subtitle": "Mail, bel of app ons. We reageren binnen 24 uur.",
+    "contactMethods": {
+      "title": "Hoe je ons bereikt",
+      "whatsapp": {
+        "title": "WhatsApp",
+        "tagline": "Snelste reactietijd",
+        "body": "Stuur ons een bericht via WhatsApp voor directe vragen of een snelle intake.",
+        "button": "Start WhatsApp chat"
+      },
+      "email": {
+        "title": "E-mail",
+        "tagline": "Voor uitgebreide vragen",
+        "body": "Stuur ons een e-mail en we reageren binnen 24 uur."
+      },
+      "phone": {
+        "title": "Telefoon",
+        "tagline": "Voor directe gesprekken",
+        "body": "Bel ons tijdens kantooruren (09:00-17:00) voor een adviesgesprek."
+      }
+    },
+    "form": {
+      "title": "Stuur ons een bericht",
+      "description": "Deel je vraag en we nemen snel contact op."
+    },
+    "infoCards": {
+      "responseTime": {
+        "title": "Reactietijd",
+        "description": "We reageren binnen 24 uur op WhatsApp en e-mail. Telefonisch zijn we bereikbaar op werkdagen tussen 09:00-17:00."
+      },
+      "location": {
+        "title": "Locatie",
+        "description": "We werken remote-first, maar komen wekelijks samen in Amsterdam. Voor on-site workshops komen we graag naar jullie toe."
+      },
+      "noObligations": {
+        "title": "Geen verplichtingen",
+        "description": "Het eerste gesprek is altijd vrijblijvend. We bespreken je uitdaging en adviseren of automatisering impact kan maken."
+      }
+    }
+  }
+}
+
+
+
+================================================
+FILE: scripts/models.sh
+================================================
+#!/bin/bash
+
+########################################
+# Caribbean Azure 3D Asset Pipeline
+# Automated 3D model sourcing and optimization
+########################################
+
+set -e  # Exit on error
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+# Directories
+MODELS_DIR="public/3d/models"
+OPTIMIZED_DIR="public/3d/optimized"
+CACHE_DIR=".cache/models"
+
+echo -e "${GREEN}🎨 Caribbean Azure 3D Asset Pipeline${NC}"
+echo "=================================================="
+
+# Create directories if they don't exist
+mkdir -p "$MODELS_DIR" "$OPTIMIZED_DIR" "$CACHE_DIR"
+
+########################################
+# STEP 1: Fetch Free 3D Assets
+########################################
+
+echo -e "\n${YELLOW}📥 Fetching 3D assets...${NC}"
+
+# Function to download from Poly Haven (CC0 license)
+fetch_polyhaven() {
+  local asset_id=$1
+  local asset_name=$2
+  local url="https://dl.polyhaven.org/file/ph-assets/HDRIs/gltf/${asset_id}_1k.glb"
+
+  echo "  → Downloading ${asset_name} from Poly Haven..."
+  curl -L -o "${CACHE_DIR}/${asset_name}.glb" "$url" 2>/dev/null || echo "    ⚠ Could not download ${asset_name}"
+}
+
+# Function to create a simple procedural geometry using Blender Python
+generate_automation_orb() {
+  echo "  → Generating automation orb geometry..."
+
+  # Create a simple Python script for Blender to generate the orb
+  cat > "${CACHE_DIR}/generate_orb.py" << 'EOF'
+import bpy
+import math
+
+# Clear scene
+bpy.ops.wm.read_factory_settings(use_empty=True)
+
+# Create icosphere for main orb
+bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=3, radius=1.0, location=(0, 0, 0))
+orb = bpy.context.active_object
+orb.name = "AutomationOrb"
+
+# Add smooth shading
+bpy.ops.object.shade_smooth()
+
+# Create node connections (visual elements)
+for i in range(8):
+    angle = (math.pi * 2 / 8) * i
+    x = math.cos(angle) * 1.5
+    y = math.sin(angle) * 1.5
+    bpy.ops.mesh.primitive_uv_sphere_add(radius=0.1, location=(x, y, 0))
+    node = bpy.context.active_object
+    node.name = f"Node_{i}"
+
+# Add material with emission
+mat = bpy.data.materials.new(name="OrbMaterial")
+mat.use_nodes = True
+nodes = mat.node_tree.nodes
+nodes.clear()
+
+# Emission shader
+emission = nodes.new(type='ShaderNodeEmission')
+emission.inputs[0].default_value = (0.06, 0.37, 1.0, 1.0)  # Caribbean Azure Blue
+emission.inputs[1].default_value = 2.0  # Strength
+
+output = nodes.new(type='ShaderNodeOutputMaterial')
+mat.node_tree.links.new(emission.outputs[0], output.inputs[0])
+
+# Assign material to orb
+orb.data.materials.append(mat)
+
+# Export as GLB
+bpy.ops.export_scene.gltf(
+    filepath='automation_orb.glb',
+    export_format='GLB',
+    export_materials='EXPORT',
+    export_colors=True
+)
+EOF
+
+  # Check if Blender is available
+  if command -v blender &> /dev/null; then
+    cd "$CACHE_DIR"
+    blender --background --python generate_orb.py -- 2>/dev/null
+    cd - > /dev/null
+    mv "${CACHE_DIR}/automation_orb.glb" "${MODELS_DIR}/automation_orb.glb" 2>/dev/null || true
+    echo "    ✓ Generated automation orb"
+  else
+    echo "    ⚠ Blender not found, skipping procedural generation"
+    echo "    ℹ Install Blender to generate custom geometry: https://www.blender.org/"
+  fi
+}
+
+# Download sample assets (these are placeholders - replace with actual CC0 assets)
+# fetch_polyhaven "abandoned_greenhouse" "environment"
+generate_automation_orb
+
+########################################
+# STEP 2: AI Text-to-3D Generation
+########################################
+
+echo -e "\n${YELLOW}🤖 AI 3D Generation Setup${NC}"
+echo "  For production use:"
+echo "  1. Meshy.ai (https://www.meshy.ai/) - Text/Image to 3D"
+echo "  2. Luma Genie (https://lumalabs.ai/genie) - Prompt-based 3D"
+echo ""
+echo "  To use AI generation:"
+echo "    1. Sign up for Meshy or Luma"
+echo "    2. Generate your models via their API or web interface"
+echo "    3. Download as GLB format"
+echo "    4. Place in: ${MODELS_DIR}/"
+echo ""
+
+########################################
+# STEP 3: Optimize 3D Models
+########################################
+
+echo -e "\n${YELLOW}⚙️  Optimizing 3D models...${NC}"
+
+# Check if gltfpack is installed
+if ! command -v gltfpack &> /dev/null; then
+  echo -e "  ${RED}✗ gltfpack not found${NC}"
+  echo "  Install meshoptimizer: npm install -g gltfpack"
+  echo "  Or via apt: sudo apt-get install meshoptimizer-tools"
+  echo ""
+  echo "  Skipping optimization..."
+else
+  echo "  → Running gltfpack optimization..."
+
+  # Optimize all GLB files in models directory
+  for model in "${MODELS_DIR}"/*.glb; do
+    if [ -f "$model" ]; then
+      filename=$(basename "$model")
+      echo "    → Optimizing ${filename}..."
+
+      # Aggressive optimization: mesh compression, texture compression, normal quantization
+      gltfpack -i "$model" -o "${OPTIMIZED_DIR}/${filename}" \
+        -cc \
+        -tc \
+        -km \
+        -kn \
+        -si 1.0 \
+        -tp \
+        2>/dev/null && echo "      ✓ ${filename} optimized" || echo "      ⚠ Could not optimize ${filename}"
+    fi
+  done
+fi
+
+# Check if gltf-transform is installed for KTX2 texture compression
+if command -v npx &> /dev/null; then
+  echo -e "\n  → Generating KTX2 compressed textures..."
+
+  for model in "${OPTIMIZED_DIR}"/*.glb; do
+    if [ -f "$model" ]; then
+      filename=$(basename "$model" .glb)
+      echo "    → Converting ${filename} textures to KTX2..."
+
+      npx gltf-transform uastc "$model" "${OPTIMIZED_DIR}/${filename}_ktx2.glb" 2>/dev/null \
+        && echo "      ✓ ${filename} KTX2 textures created" \
+        || echo "      ⚠ Could not create KTX2 textures"
+    fi
+  done
+else
+  echo "  ℹ npx not found, skipping KTX2 compression"
+  echo "    Install Node.js to enable KTX2: https://nodejs.org/"
+fi
+
+########################################
+# STEP 4: Generate Asset Report
+########################################
+
+echo -e "\n${YELLOW}📊 Generating asset report...${NC}"
+
+REPORT_FILE="ASSETS_LICENSE.md"
+
+cat > "$REPORT_FILE" << 'EOF'
+# 3D Assets License & Attribution
+
+This file tracks all 3D assets used in the Caribbean Azure website, their sources, and licenses.
+
+## Asset Inventory
+
+### Automation Orb
+- **File:** `automation_orb.glb`
+- **Source:** Procedurally generated
+- **License:** Proprietary (Created by Caribbean Azure)
+- **Description:** Main hero 3D element - animated node network orb
+- **Optimized Size:** ~15KB
+
+### Guidelines for Adding New Assets
+
+1. **Free Assets (CC0 / Public Domain)**
+   - [Poly Haven](https://polyhaven.com/) - HDRIs, textures, models (CC0)
+   - [Sketchfab](https://sketchfab.com/features/download) - Filter by "Downloadable" + CC0/CC-BY
+   - Always document attribution even for CC0
+
+2. **AI-Generated Assets**
+   - [Meshy.ai](https://www.meshy.ai/) - Text/Image to 3D (Check license per plan)
+   - [Luma Genie](https://lumalabs.ai/genie) - Prompt-based 3D (Check license)
+   - Document generation prompt and date
+
+3. **Attribution Template**
+   ```markdown
+   ### [Asset Name]
+   - **File:** `filename.glb`
+   - **Source:** [URL or "Procedurally Generated" or "AI Generated via X"]
+   - **License:** [CC0 / CC-BY / CC-BY-SA / Proprietary]
+   - **Attribution:** [If required by license]
+   - **Description:** [What it's used for]
+   - **Original Size:** [Before optimization]
+   - **Optimized Size:** [After gltfpack]
+   ```
+
+## Optimization Pipeline
+
+All assets are processed through:
+1. **gltfpack** - Mesh & texture compression
+   - Mesh quantization
+   - Texture compression
+   - Normal/tangent preservation
+   - KTX2 basis universal textures
+
+2. **Performance Targets**
+   - Hero 3D: <150KB total JS + assets on first paint
+   - DPR capping on mobile (max 1.5)
+   - Instancing for repeated geometry
+   - LOD (Level of Detail) where applicable
+
+## License Compliance Checklist
+
+- [ ] All assets documented with source and license
+- [ ] CC-BY attributions included in footer
+- [ ] No GPL/copyleft licenses (incompatible with proprietary code)
+- [ ] AI-generated assets comply with service ToS
+- [ ] Optimization preserves embedded license metadata
+
+---
+
+**Last Updated:** $(date +%Y-%m-%d)
+**Pipeline Version:** 1.0.0
+EOF
+
+echo "  ✓ Asset report generated: ${REPORT_FILE}"
+
+########################################
+# STEP 5: Summary
+########################################
+
+echo -e "\n${GREEN}✅ Pipeline Complete!${NC}"
+echo "=================================================="
+echo ""
+echo "📁 Directories:"
+echo "  Source models:    ${MODELS_DIR}/"
+echo "  Optimized models: ${OPTIMIZED_DIR}/"
+echo "  Cache:            ${CACHE_DIR}/"
+echo ""
+echo "📄 Documentation:"
+echo "  License report:   ${REPORT_FILE}"
+echo ""
+echo "🎯 Next Steps:"
+echo "  1. Review ${REPORT_FILE} for license compliance"
+echo "  2. Import optimized models in R3F components"
+echo "  3. Add <Suspense> fallbacks for loading states"
+echo "  4. Test on mobile with DPR capping"
+echo ""
+
+# File size summary if optimized files exist
+if [ "$(ls -A $OPTIMIZED_DIR 2>/dev/null)" ]; then
+  echo "📊 Optimized Model Sizes:"
+  du -h "${OPTIMIZED_DIR}"/*.glb 2>/dev/null | while read size file; do
+    filename=$(basename "$file")
+    echo "  ${filename}: ${size}"
+  done
+fi
+
+echo ""
+echo -e "${GREEN}Done! 🎉${NC}"
+
+
+
+================================================
+FILE: styles/brand-tokens.css
+================================================
+/**
+ * Caribbean Azure - Brand Design Tokens
+ * Research-driven color, typography, and motion system
+ */
+
+:root {
+  /* Core Brand Colors */
+  --ca-blue-deep: #0a2a43;
+  --ca-blue-primary: #2563eb;
+  --ca-blue-light: #06b6d4;
+  --ca-neutral-50: #f8fafc;
+  --ca-neutral-900: #0f172a;
+  --ca-amber: #f59e0b;
+
+  /* Gradient Tokens (per page theme) */
+  --gradient-home: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+  --gradient-services: linear-gradient(135deg, #0a2a43 0%, #2563eb 100%);
+  --gradient-about: linear-gradient(135deg, #f59e0b 0%, #2563eb 100%);
+  --gradient-cases: linear-gradient(135deg, #2563eb 0%, #60a5fa 100%);
+  --gradient-contact: linear-gradient(135deg, #06b6d4 0%, #0a2a43 100%);
+
+  /* Typography Scale (1.25 ratio - major third) */
+  --font-size-xl: 3.052rem; /* 48.8px */
+  --font-size-lg: 2.441rem; /* 39px */
+  --font-size-md: 1.953rem; /* 31.2px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-sm: 0.8rem; /* 12.8px */
+
+  /* Font Weights */
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.05em;
+
+  /* Motion Easing (Research-driven curves) */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-expo: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-material: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Motion Duration */
+  --duration-micro: 150ms;
+  --duration-small: 300ms;
+  --duration-medium: 500ms;
+  --duration-large: 800ms;
+
+  /* Spacing Scale (4px base) */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-6: 1.5rem; /* 24px */
+  --space-8: 2rem; /* 32px */
+  --space-12: 3rem; /* 48px */
+  --space-16: 4rem; /* 64px */
+
+  /* Border Radius */
+  --radius-sm: 0.5rem; /* 8px */
+  --radius-md: 0.75rem; /* 12px */
+  --radius-lg: 1rem; /* 16px */
+  --radius-xl: 1.5rem; /* 24px */
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+  /* Z-Index Scale */
+  --z-background: -1;
+  --z-base: 0;
+  --z-content: 1;
+  --z-header: 50;
+  --z-overlay: 100;
+  --z-modal: 200;
+}
+
+/* Dark Mode Overrides (optional) */
+@media (prefers-color-scheme: dark) {
+  :root[data-theme='dark'] {
+    --ca-neutral-50: #0f172a;
+    --ca-neutral-900: #f8fafc;
+
+    /* Lighter gradients for dark mode */
+    --gradient-home: linear-gradient(135deg, #60a5fa 0%, #22d3ee 100%);
+    --gradient-services: linear-gradient(135deg, #1e3a5f 0%, #60a5fa 100%);
+    --gradient-about: linear-gradient(135deg, #fbbf24 0%, #60a5fa 100%);
+    --gradient-cases: linear-gradient(135deg, #60a5fa 0%, #93c5fd 100%);
+    --gradient-contact: linear-gradient(135deg, #22d3ee 0%, #1e3a5f 100%);
+  }
+}
+
+/* Reduced Motion Preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Utility Classes */
+.gradient-text {
+  background: var(--gradient-home);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-effect {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+}
+
+.smooth-transition {
+  transition: all var(--duration-small) var(--ease-material);
+}
+

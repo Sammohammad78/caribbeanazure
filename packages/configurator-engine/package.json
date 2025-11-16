@@ -1,0 +1,36 @@
+{
+  "name": "@caribbean-azure/configurator-engine",
+  "version": "1.0.0",
+  "description": "Unified configurator engine for sheds, carports, and verandas with calculations, validation, BOM, and pricing",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf .turbo node_modules dist"
+  },
+  "keywords": [
+    "configurator",
+    "shed",
+    "carport",
+    "veranda",
+    "bom",
+    "pricing",
+    "validation",
+    "calculations"
+  ],
+  "dependencies": {
+    "@caribbean-azure/types": "workspace:*",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@vitest/ui": "^2.1.8",
+    "@vitest/coverage-v8": "^2.1.8",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

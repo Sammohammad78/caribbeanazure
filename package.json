@@ -1,0 +1,32 @@
+{
+  "name": "caribbean-azure-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Caribbean Azure unified SaaS platform - Marketing + Platform apps",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:marketing": "turbo run dev --filter=@caribbean-azure/marketing",
+    "dev:platform": "turbo run dev --filter=@caribbean-azure/platform",
+    "build": "turbo run build",
+    "build:marketing": "turbo run build --filter=@caribbean-azure/marketing",
+    "build:platform": "turbo run build --filter=@caribbean-azure/platform",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0"
+}
