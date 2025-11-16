@@ -13,7 +13,7 @@ export function ROICalculatorSection() {
       {/* Background gradient */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-[color:color-mix(in_oklab,var(--brand-soft)_8%,transparent)] to-transparent" />
 
-      <Container size="default" gutter="lg" className="relative">
+      <Container size="default" className="relative">
         <div className="mx-auto max-w-6xl">
           {/* Header */}
           <div className="mb-12 text-center">
