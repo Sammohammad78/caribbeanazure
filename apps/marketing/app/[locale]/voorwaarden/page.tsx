@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
+import { Header } from '@/components/layout/header'
+import { Footer } from '@/components/layout/footer'
 import { Container } from '@/components/layout/Container'
 import { Section } from '@/components/layout/Section'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -30,7 +32,8 @@ export default async function TermsPage({
   return (
     <>
       <div className="relative min-h-screen bg-gradient-to-b from-[color:var(--bg)] to-[color:color-mix(in_oklab,var(--brand-soft)_15%,var(--bg)_85%)]">
-        <main>
+        <Header />
+        <main id="main-content">
           <Container size="default">
             {/* Header */}
             <section className="pb-8 pt-32">
@@ -204,6 +207,7 @@ export default async function TermsPage({
             </section>
           </Container>
         </main>
+        <Footer />
       </div>
     </>
   )
