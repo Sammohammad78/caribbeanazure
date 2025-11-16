@@ -31,7 +31,7 @@ export default async function TermsPage({
     <>
       <div className="relative min-h-screen bg-gradient-to-b from-[color:var(--bg)] to-[color:color-mix(in_oklab,var(--brand-soft)_15%,var(--bg)_85%)]">
         <main>
-          <Container size="default" gutter="lg">
+          <Container size="default">
             {/* Header */}
             <section className="pb-8 pt-32">
               <div className="mx-auto max-w-3xl text-center">
