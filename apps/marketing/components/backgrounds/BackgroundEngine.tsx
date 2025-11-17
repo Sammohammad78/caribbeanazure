@@ -1,7 +1,7 @@
 'use client'
 
-import { useEffect, useRef, useState, Suspense } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
+import { useEffect, useRef, useState, Suspense, useMemo } from 'react'
+import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Sphere } from '@react-three/drei'
 import { EffectComposer, Bloom } from '@react-three/postprocessing'
 import * as THREE from 'three'
@@ -17,11 +17,12 @@ function ParticleField({ theme, mousePosition }: {
   theme: BackgroundTheme
   mousePosition: { x: number; y: number }
 }) {
-  const particlesRef = useRef<THREE.Points>(null)
+  const { scene } = useThree()
+  const pointsRef = useRef<THREE.Points | null>(null)
   const positions = useRef<Float32Array | null>(null)
 
-  // Initialize particle positions once
-  if (!positions.current) {
+  // Create the Points object imperatively
+  const particleSystem = useMemo(() => {
     const count = theme.particles.count
     const pos = new Float32Array(count * 3)
 
@@ -32,15 +33,43 @@ function ParticleField({ theme, mousePosition }: {
     }
 
     positions.current = pos
-  }
+
+    const geometry = new THREE.BufferGeometry()
+    geometry.setAttribute('position', new THREE.BufferAttribute(pos, 3))
+
+    const color = new THREE.Color(theme.colors.primary)
+    const material = new THREE.PointsMaterial({
+      size: theme.particles.size,
+      color,
+      transparent: true,
+      opacity: theme.particles.opacity,
+      sizeAttenuation: true,
+      blending: THREE.AdditiveBlending,
+    })
+
+    const points = new THREE.Points(geometry, material)
+    pointsRef.current = points
+
+    return points
+  }, [theme.particles.count, theme.particles.size, theme.particles.opacity, theme.colors.primary])
+
+  // Add to scene
+  useEffect(() => {
+    if (particleSystem) {
+      scene.add(particleSystem)
+      return () => {
+        scene.remove(particleSystem)
+      }
+    }
+  }, [particleSystem, scene])
 
   useFrame((state) => {
-    if (!particlesRef.current || !positions.current) return
+    if (!pointsRef.current || !positions.current) return
 
     const time = state.clock.getElapsedTime() * theme.motion.speed
 
     // Animate particles with Perlin-like flow
-    const geometry = particlesRef.current.geometry
+    const geometry = pointsRef.current.geometry
     const pos = geometry.attributes.position
 
     for (let i = 0; i < theme.particles.count; i++) {
@@ -75,28 +104,7 @@ function ParticleField({ theme, mousePosition }: {
     pos.needsUpdate = true
   })
 
-  if (!positions.current) return null
-
-  const color = new THREE.Color(theme.colors.primary)
-
-  return (
-    <points ref={particlesRef}>
-      <bufferGeometry>
-        <bufferAttribute
-          attach="attributes-position"
-          args={[positions.current, 3]}
-        />
-      </bufferGeometry>
-      <pointsMaterial
-        size={theme.particles.size}
-        color={color}
-        transparent={true}
-        opacity={theme.particles.opacity}
-        sizeAttenuation={true}
-        blending={THREE.AdditiveBlending}
-      />
-    </points>
-  )
+  return null
 }
 
 // Neural grid effect for services page
