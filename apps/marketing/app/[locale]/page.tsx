@@ -1,14 +1,13 @@
 import { Header } from '@/components/layout/header'
-import { Footer } from '@/components/layout/footer'
-import { HeroEnhanced } from '@/components/sections/hero-enhanced'
+import { FooterPremium } from '@/components/layout/footer-premium'
+import { HeroPremium } from '@/components/sections/hero-premium'
 import { TrustStrip } from '@/components/sections/trust-strip'
+import { StatsPremium } from '@/components/sections/stats-premium'
+import { FeaturesPremium } from '@/components/sections/features-premium'
 import { ROICalculatorSection } from '@/components/sections/roi-calculator'
-import { OutcomesStrip } from '@/components/sections/outcomes-strip'
-import { ServicesGrid } from '@/components/sections/services-grid'
-import { ProcessSection } from '@/components/sections/process-section'
-import { UseCasesSection } from '@/components/sections/use-cases-section'
-import { TestimonialsSection } from '@/components/sections/testimonials-section'
-import { FAQSection } from '@/components/sections/faq-section'
+import { TestimonialsPremium } from '@/components/sections/testimonials-premium'
+import { PricingPremium } from '@/components/sections/pricing-premium'
+import { FAQPremium } from '@/components/sections/faq-premium'
 import { CTASection } from '@/components/sections/cta-section'
 import {
   OrganizationSchema,
@@ -16,8 +15,6 @@ import {
   LocalBusinessSchema,
   WebsiteSchema,
 } from '@/components/seo/structured-data'
-import { BackgroundEngine } from '@/components/backgrounds/BackgroundEngine'
-import { backgroundThemes } from '@/lib/backgroundThemes'
 
 export default function HomePage() {
   return (
@@ -28,26 +25,39 @@ export default function HomePage() {
       <LocalBusinessSchema />
       <WebsiteSchema />
 
-      <div className="relative">
-        {/* 3D Background */}
-        <div className="fixed inset-0 -z-10">
-          <BackgroundEngine theme={backgroundThemes.home} />
-        </div>
-
+      <div className="relative min-h-screen">
         <Header />
         <main id="main-content">
-          <HeroEnhanced />
-          <TrustStrip variant="default" className="py-12" />
+          {/* Premium Hero with 3D effects */}
+          <HeroPremium />
+
+          {/* Trust indicators */}
+          <TrustStrip variant="default" className="py-12 bg-[color:var(--bg)]" />
+
+          {/* Animated statistics */}
+          <StatsPremium />
+
+          {/* Interactive features grid */}
+          <FeaturesPremium />
+
+          {/* ROI Calculator */}
           <ROICalculatorSection />
-          <OutcomesStrip />
-          <ProcessSection />
-          <UseCasesSection />
-          <ServicesGrid />
-          <TestimonialsSection />
-          <FAQSection />
+
+          {/* Social proof - testimonials */}
+          <TestimonialsPremium />
+
+          {/* Pricing options */}
+          <PricingPremium />
+
+          {/* FAQ accordion */}
+          <FAQPremium />
+
+          {/* Final CTA */}
           <CTASection />
         </main>
-        <Footer />
+
+        {/* Premium footer */}
+        <FooterPremium />
       </div>
     </>
   )
