@@ -19,6 +19,7 @@ function ParticleField({ theme, mousePosition }: {
 }) {
   const particlesRef = useRef<THREE.Points>(null)
   const positions = useRef<Float32Array | null>(null)
+  const geometryRef = useRef<THREE.BufferGeometry | null>(null)
 
   // Initialize particle positions
   useEffect(() => {
@@ -33,6 +34,11 @@ function ParticleField({ theme, mousePosition }: {
       }
 
       positions.current = pos
+
+      // Create geometry
+      const geometry = new THREE.BufferGeometry()
+      geometry.setAttribute('position', new THREE.BufferAttribute(pos, 3))
+      geometryRef.current = geometry
     }
   }, [theme.particles.count])
 
@@ -77,22 +83,31 @@ function ParticleField({ theme, mousePosition }: {
     pos.needsUpdate = true
   })
 
-  if (!positions.current) return null
-
-  const geometry = new THREE.BufferGeometry()
-  geometry.setAttribute('position', new THREE.BufferAttribute(positions.current, 3))
+  if (!positions.current || !geometryRef.current) return null
 
   const color = new THREE.Color(theme.colors.primary)
-  const material = new THREE.PointsMaterial({
-    size: theme.particles.size,
-    color,
-    transparent: true,
-    opacity: theme.particles.opacity,
-    sizeAttenuation: true,
-    blending: THREE.AdditiveBlending,
-  })
 
-  return <primitive ref={particlesRef} object={new THREE.Points(geometry, material)} />
+  return (
+    <points ref={particlesRef}>
+      <bufferGeometry attach="geometry">
+        <bufferAttribute
+          attach="attributes-position"
+          count={positions.current.length / 3}
+          array={positions.current}
+          itemSize={3}
+        />
+      </bufferGeometry>
+      <pointsMaterial
+        attach="material"
+        size={theme.particles.size}
+        color={color}
+        transparent={true}
+        opacity={theme.particles.opacity}
+        sizeAttenuation={true}
+        blending={THREE.AdditiveBlending}
+      />
+    </points>
+  )
 }
 
 // Neural grid effect for services page
