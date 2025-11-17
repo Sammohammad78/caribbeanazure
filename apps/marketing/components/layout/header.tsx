@@ -34,7 +34,6 @@ export function Header() {
   }
 
   const navItems = [
-    { href: buildHref(''), label: t('nav.home') },
     { href: buildHref('oplossingen'), label: t('nav.solutions') },
     { href: buildHref('over-ons'), label: t('nav.about') },
     { href: buildHref('contact'), label: t('nav.contact') },
@@ -102,11 +101,13 @@ export function Header() {
             <LanguageSwitcher />
             <ThemeToggle className="hidden md:inline-flex" />
 
-            <Button asChild size="sm" className="hidden md:inline-flex">
-              <Link href={buildHref('contact')}>
-                {t('common.bookIntake')}
-              </Link>
-            </Button>
+            {/* CONFIGURATOR CTA - Prominent */}
+            <a
+              href="/configurator"
+              className="btn-primary hidden md:inline-flex"
+            >
+              {locale === 'nl' ? 'Start Configurator' : 'Launch Configurator'}
+            </a>
 
             {/* Mobile menu button */}
             <button
@@ -146,6 +147,15 @@ export function Header() {
               {item.label}
             </Link>
           ))}
+
+          {/* Configurator CTA - Mobile */}
+          <a
+            href="/configurator"
+            className="btn-primary mt-2"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            {locale === 'nl' ? 'Start Configurator' : 'Launch Configurator'}
+          </a>
         </nav>
       </div>
     </header>

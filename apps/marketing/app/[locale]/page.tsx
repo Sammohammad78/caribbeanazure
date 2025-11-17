@@ -1,14 +1,9 @@
 import { Header } from '@/components/layout/header'
-import { FooterPremium } from '@/components/layout/footer-premium'
-import { HeroPremium } from '@/components/sections/hero-premium'
-import { TrustStrip } from '@/components/sections/trust-strip'
-import { StatsPremium } from '@/components/sections/stats-premium'
-import { FeaturesPremium } from '@/components/sections/features-premium'
+import { FooterSimple } from '@/components/layout/footer-simple'
+import { HeroSimple } from '@/components/sections/hero-simple'
+import { FeaturesSimple } from '@/components/sections/features-simple'
 import { ROICalculatorSection } from '@/components/sections/roi-calculator'
-import { TestimonialsPremium } from '@/components/sections/testimonials-premium'
-import { PricingPremium } from '@/components/sections/pricing-premium'
-import { FAQPremium } from '@/components/sections/faq-premium'
-import { CTASection } from '@/components/sections/cta-section'
+import { CTASimple } from '@/components/sections/cta-simple'
 import {
   OrganizationSchema,
   ServiceSchema,
@@ -28,36 +23,21 @@ export default function HomePage() {
       <div className="relative min-h-screen">
         <Header />
         <main id="main-content">
-          {/* Premium Hero with 3D effects */}
-          <HeroPremium />
+          {/* Simple, clean hero */}
+          <HeroSimple />
 
-          {/* Trust indicators */}
-          <TrustStrip variant="default" className="py-12 bg-[color:var(--bg)]" />
+          {/* Features grid - consistent design */}
+          <FeaturesSimple />
 
-          {/* Animated statistics */}
-          <StatsPremium />
-
-          {/* Interactive features grid */}
-          <FeaturesPremium />
-
-          {/* ROI Calculator */}
+          {/* ROI Calculator - white background */}
           <ROICalculatorSection />
 
-          {/* Social proof - testimonials */}
-          <TestimonialsPremium />
-
-          {/* Pricing options */}
-          <PricingPremium />
-
-          {/* FAQ accordion */}
-          <FAQPremium />
-
-          {/* Final CTA */}
-          <CTASection />
+          {/* CTA section - brand background */}
+          <CTASimple />
         </main>
 
-        {/* Premium footer */}
-        <FooterPremium />
+        {/* Simple footer */}
+        <FooterSimple />
       </div>
     </>
   )
