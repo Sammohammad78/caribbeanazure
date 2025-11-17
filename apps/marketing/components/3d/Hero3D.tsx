@@ -98,7 +98,6 @@ function ConnectionLine({
 
   if (!geometry) return null
 
-  // @ts-expect-error - primitive is a valid React Three Fiber component
   return <primitive object={new THREE.Line(geometry, material)} />
 }
 
