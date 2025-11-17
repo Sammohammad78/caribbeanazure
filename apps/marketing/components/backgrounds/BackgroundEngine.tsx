@@ -20,21 +20,19 @@ function ParticleField({ theme, mousePosition }: {
   const particlesRef = useRef<THREE.Points>(null)
   const positions = useRef<Float32Array | null>(null)
 
-  // Initialize particle positions
-  useEffect(() => {
-    if (!positions.current) {
-      const count = theme.particles.count
-      const pos = new Float32Array(count * 3)
+  // Initialize particle positions once
+  if (!positions.current) {
+    const count = theme.particles.count
+    const pos = new Float32Array(count * 3)
 
-      for (let i = 0; i < count; i++) {
-        pos[i * 3] = (Math.random() - 0.5) * 20
-        pos[i * 3 + 1] = (Math.random() - 0.5) * 20
-        pos[i * 3 + 2] = (Math.random() - 0.5) * 10
-      }
-
-      positions.current = pos
+    for (let i = 0; i < count; i++) {
+      pos[i * 3] = (Math.random() - 0.5) * 20
+      pos[i * 3 + 1] = (Math.random() - 0.5) * 20
+      pos[i * 3 + 2] = (Math.random() - 0.5) * 10
     }
-  }, [theme.particles.count])
+
+    positions.current = pos
+  }
 
   useFrame((state) => {
     if (!particlesRef.current || !positions.current) return
@@ -79,20 +77,26 @@ function ParticleField({ theme, mousePosition }: {
 
   if (!positions.current) return null
 
-  const geometry = new THREE.BufferGeometry()
-  geometry.setAttribute('position', new THREE.BufferAttribute(positions.current, 3))
-
   const color = new THREE.Color(theme.colors.primary)
-  const material = new THREE.PointsMaterial({
-    size: theme.particles.size,
-    color,
-    transparent: true,
-    opacity: theme.particles.opacity,
-    sizeAttenuation: true,
-    blending: THREE.AdditiveBlending,
-  })
 
-  return <primitive ref={particlesRef} object={new THREE.Points(geometry, material)} />
+  return (
+    <points ref={particlesRef}>
+      <bufferGeometry>
+        <bufferAttribute
+          attach="attributes-position"
+          args={[positions.current, 3]}
+        />
+      </bufferGeometry>
+      <pointsMaterial
+        size={theme.particles.size}
+        color={color}
+        transparent={true}
+        opacity={theme.particles.opacity}
+        sizeAttenuation={true}
+        blending={THREE.AdditiveBlending}
+      />
+    </points>
+  )
 }
 
 // Neural grid effect for services page
