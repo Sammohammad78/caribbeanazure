@@ -1,14 +1,8 @@
 import { Header } from '@/components/layout/header'
-import { FooterPremium } from '@/components/layout/footer-premium'
-import { HeroPremium } from '@/components/sections/hero-premium'
-import { TrustStrip } from '@/components/sections/trust-strip'
-import { StatsPremium } from '@/components/sections/stats-premium'
-import { FeaturesPremium } from '@/components/sections/features-premium'
-import { ROICalculatorSection } from '@/components/sections/roi-calculator'
-import { TestimonialsPremium } from '@/components/sections/testimonials-premium'
-import { PricingPremium } from '@/components/sections/pricing-premium'
-import { FAQPremium } from '@/components/sections/faq-premium'
-import { CTASection } from '@/components/sections/cta-section'
+import { FooterModern } from '@/components/layout/footer-modern'
+import { HeroModern } from '@/components/sections/hero-modern'
+import { FeaturesModern } from '@/components/sections/features-modern'
+import { CTAModern } from '@/components/sections/cta-modern'
 import {
   OrganizationSchema,
   ServiceSchema,
@@ -25,39 +19,21 @@ export default function HomePage() {
       <LocalBusinessSchema />
       <WebsiteSchema />
 
-      <div className="relative min-h-screen">
+      <div className="relative min-h-screen bg-[color:var(--bg-primary)]">
         <Header />
         <main id="main-content">
-          {/* Premium Hero with 3D effects */}
-          <HeroPremium />
+          {/* Ultra-modern hero with grid background */}
+          <HeroModern />
 
-          {/* Trust indicators */}
-          <TrustStrip variant="default" className="py-12 bg-[color:var(--bg)]" />
+          {/* Modern features grid */}
+          <FeaturesModern />
 
-          {/* Animated statistics */}
-          <StatsPremium />
-
-          {/* Interactive features grid */}
-          <FeaturesPremium />
-
-          {/* ROI Calculator */}
-          <ROICalculatorSection />
-
-          {/* Social proof - testimonials */}
-          <TestimonialsPremium />
-
-          {/* Pricing options */}
-          <PricingPremium />
-
-          {/* FAQ accordion */}
-          <FAQPremium />
-
-          {/* Final CTA */}
-          <CTASection />
+          {/* CTA with gradient border */}
+          <CTAModern />
         </main>
 
-        {/* Premium footer */}
-        <FooterPremium />
+        {/* Modern footer */}
+        <FooterModern />
       </div>
     </>
   )
