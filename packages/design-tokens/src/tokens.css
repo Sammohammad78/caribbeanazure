@@ -1,0 +1,171 @@
+/**
+ * Caribbean Azure CSS Custom Properties
+ * Import this file in your global CSS to use design tokens
+ */
+
+:root {
+  /* Brand Colors */
+  --brand-900: #0a2a43;
+  --brand-800: #0d3a5a;
+  --brand-700: #0e4a72;
+  --brand-600: #0f5e9c;
+  --brand-500: #2b7bbf;
+  --brand-400: #4ba3f7;
+  --brand-300: #7dbfff;
+  --brand-200: #a8d5ff;
+  --brand-100: #e3f2fd;
+  --brand-50: #f0f8ff;
+
+  /* Neutral - Sand */
+  --sand-50: #f7f7f5;
+  --sand-100: #eeede9;
+  --sand-200: #e0ded7;
+  --sand-300: #d1cfca;
+  --sand-400: #b8b6b1;
+  --sand-500: #9e9c97;
+  --sand-600: #84827d;
+  --sand-700: #6a6863;
+  --sand-800: #504e49;
+  --sand-900: #36342f;
+
+  /* Neutral - Ink */
+  --ink-50: #f9fafb;
+  --ink-100: #f3f4f6;
+  --ink-200: #e5e7eb;
+  --ink-300: #d1d5db;
+  --ink-400: #9ca3af;
+  --ink-500: #6b7280;
+  --ink-600: #4b5563;
+  --ink-700: #3a3d4a;
+  --ink-800: #1f2937;
+  --ink-900: #0e0f14;
+
+  /* Accent Colors */
+  --accent-amber: #ffb703;
+  --accent-amber-light: #fff8e6;
+  --accent-orange: #f59e0b;
+  --accent-orange-light: #fef3c7;
+
+  /* Semantic Colors */
+  --success: #10b981;
+  --success-light: #d1fae5;
+  --error: #ef4444;
+  --error-light: #fee2e2;
+  --warning: #f59e0b;
+  --warning-light: #fef3c7;
+  --info: #3b82f6;
+  --info-light: #dbeafe;
+
+  /* Functional Colors (Light Mode) */
+  --bg: var(--sand-50);
+  --bg-elevated: #ffffff;
+  --panel: #ffffff;
+  --muted: var(--sand-200);
+  --border: var(--sand-200);
+  --fg: var(--ink-900);
+  --fg-muted: var(--ink-500);
+  --fg-subtle: var(--ink-400);
+  --brand-soft: var(--brand-100);
+  --brand: var(--brand-600);
+  --brand-strong: var(--brand-900);
+
+  /* Typography */
+  --font-display: 'Geist', 'Inter Tight', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
+
+  /* Font Weights */
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Spacing (4px grid) */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* Semantic Spacing */
+  --section-padding-mobile: 40px;
+  --section-padding-desktop: 64px;
+  --card-padding: 24px;
+  --card-gap: 24px;
+  --container-gutter: 16px;
+
+  /* Border Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(10, 42, 67, 0.04);
+  --shadow-sm: 0 1px 3px rgba(10, 42, 67, 0.06), 0 1px 2px rgba(10, 42, 67, 0.04);
+  --shadow-md: 0 4px 6px rgba(10, 42, 67, 0.07), 0 2px 4px rgba(10, 42, 67, 0.04);
+  --shadow-lg: 0 10px 15px rgba(10, 42, 67, 0.1), 0 4px 6px rgba(10, 42, 67, 0.05);
+  --shadow-xl: 0 20px 25px rgba(10, 42, 67, 0.15), 0 10px 10px rgba(10, 42, 67, 0.04);
+  --shadow-2xl: 0 25px 50px rgba(10, 42, 67, 0.25);
+
+  /* Semantic Shadows */
+  --shadow-button: var(--shadow-md);
+  --shadow-card: var(--shadow-lg);
+  --shadow-card-hover: var(--shadow-xl);
+
+  /* Glows */
+  --glow-brand: 0 0 0 3px rgba(75, 163, 247, 0.25);
+  --glow-brand-strong: 0 0 16px rgba(75, 163, 247, 0.4), 0 0 0 3px rgba(75, 163, 247, 0.25);
+  --glow-error: 0 0 0 3px rgba(239, 68, 68, 0.25);
+  --glow-success: 0 0 0 3px rgba(16, 185, 129, 0.25);
+
+  /* Transitions */
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 300ms;
+  --duration-slower: 500ms;
+
+  --ease-out: cubic-bezier(0.33, 1, 0.68, 1);
+  --ease-in: cubic-bezier(0.32, 0, 0.67, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  --transition-fast: 150ms cubic-bezier(0.33, 1, 0.68, 1);
+  --transition-base: 200ms cubic-bezier(0.33, 1, 0.68, 1);
+  --transition-slow: 300ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/* Dark Mode */
+.dark,
+[data-theme='dark'] {
+  --bg: #0e0f14;
+  --bg-elevated: #1a1b20;
+  --panel: #1f2937;
+  --muted: #374151;
+  --border: #374151;
+  --fg: #f9fafb;
+  --fg-muted: #9ca3af;
+  --fg-subtle: #6b7280;
+  --brand-soft: var(--brand-600);
+  --brand: var(--brand-400);
+  --brand-strong: var(--brand-300);
+}
+
+/* Responsive Spacing */
+@media (min-width: 768px) {
+  :root {
+    --container-gutter: 24px;
+  }
+}

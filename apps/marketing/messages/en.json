@@ -1,0 +1,1241 @@
+{
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "services": "Services",
+    "cases": "Cases",
+    "pricing": "Pricing",
+    "about": "About",
+    "industries": "Industries",
+    "integrations": "Integrations",
+    "security": "Security",
+    "insights": "Insights",
+    "contact": "Contact",
+    "blueprint": "Blueprint",
+    "roi": "ROI calculator",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "terms": "Terms"
+  },
+  "hero": {
+    "badge": "Caribbean Azure · Automation Studio",
+    "title": "Automate your work. Accelerate your growth.",
+    "subtitle": "We design practical automations for teams that want to",
+    "subtitleHighlight1": "click less",
+    "subtitleHighlight2": "deliver more",
+    "subtitleAnd": "and",
+    "cta": {
+      "primary": "Book a short intake",
+      "secondary": "View our approach"
+    }
+  },
+  "common": {
+    "from": "from",
+    "learnMore": "Learn more",
+    "bookIntake": "Book an intake",
+    "popular": "Popular",
+    "recommended": "Recommended",
+    "priceOnRequest": "Price on request",
+    "month": "month",
+    "months": "months",
+    "exclVat": "excl. VAT",
+    "viewAllPricing": "View all pricing",
+    "calculateROI": "Calculate your ROI",
+    "example": "Example:",
+    "included": "Included with every",
+    "readyForMore": "Ready for more?",
+    "submitting": "Submitting...",
+    "people": "people",
+    "hours": "hours",
+    "hoursPerYear": "hours/year",
+    "viewAllSolutions": "View all solutions",
+    "tier1": "Tier 1",
+    "tier2": "Tier 2",
+    "tier3": "Tier 3",
+    "exactPriceNote": "exact price depends on scope",
+    "concreteUseCases": "Concrete use cases",
+    "includedWithEvery": "Included with every",
+    "manufacturingSolutions": "Manufacturing solutions",
+    "configuratorSolutions": "Configurator solutions",
+    "needFullConfig": "Need full product configuration?",
+    "needMoreComplex": "Need more complex processes? Check out our Manufacturing and Configurator solutions.",
+    "tier2Recommended": "Tier 2 · Recommended for manufacturing",
+    "tier3Custom": "Tier 3 · Custom",
+    "exclVatFromPrice": "excl. VAT · from-price, exact scope determined in intake",
+    "exclVatOnRequest": "Custom—price on request. Book an intake to assess your use case.",
+    "whatWeBuildForYou": "What we build for you",
+    "productionReadySolutions": "Production-ready solutions that directly connect sales to manufacturing",
+    "featuresCapabilities": "Features & capabilities",
+    "twoLevelsConfig": "Two levels of configuration",
+    "cpqToProduction": "From standard CPQ to full production integration",
+    "concreteExamples": "Concrete examples",
+    "howConfiguratorsWork": "How configurators work in practice",
+    "challenge": "Challenge:",
+    "solution": "Solution:",
+    "readyForConfigurator": "Ready for a configurator?",
+    "bookIntakeConfigurator": "Book an intake to discuss your product, variants, and production process. We'll assess together whether a configurator is the best solution.",
+    "viewCases": "View cases",
+    "cpqConfigDescription": "Check out our CPQ & Configure-to-Production solutions for complex products with thousands of variants.",
+    "roiCalculator": {
+      "badge": "ROI Calculator",
+      "title": "What does automation deliver for you?",
+      "subtitle": "Calculate in 60 seconds how much time and money you save with automation",
+      "input": {
+        "title": "Your situation",
+        "description": "Adjust the sliders to match your current situation",
+        "teamSize": {
+          "label": "Team size",
+          "min": "1 person",
+          "max": "50+ people"
+        },
+        "hoursPerWeek": {
+          "label": "Hours of manual work per week",
+          "min": "5 hours/week",
+          "max": "40 hours/week"
+        },
+        "hourlyRate": {
+          "label": "Average hourly rate",
+          "min": "€25/hour",
+          "max": "€150/hour"
+        }
+      },
+      "results": {
+        "yearlySavings": "Annual savings",
+        "roi": "ROI (first year)",
+        "payback": "Paid back in",
+        "investment": "Investment"
+      },
+      "graph": {
+        "title": "Cumulative savings (24 months)",
+        "xAxisLabel": "Months",
+        "tooltipMonth": "Month",
+        "breakevenText": "Breakeven point after",
+        "totalSavingsText": "Total savings after 2 years:"
+      },
+      "cta": {
+        "button": "Get your personal blueprint",
+        "footer": "No-obligation conversation · Response within 24 hours"
+      },
+      "disclaimer": {
+        "bold": "Note:",
+        "text": "The calculation is an example and not a guarantee. Actual results vary per process and organization."
+      }
+    },
+    "contactForm": {
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name",
+          "required": "Name must be at least 2 characters"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "your.email@example.com",
+          "invalid": "Invalid email address"
+        },
+        "phone": {
+          "label": "Phone (optional)",
+          "placeholder": "+31 6 1234 5678"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us how we can help you...",
+          "required": "Message must be at least 10 characters"
+        }
+      },
+      "status": {
+        "success": "Thank you! We'll be in touch soon.",
+        "error": "Something went wrong. Please try again.",
+        "sending": "Sending..."
+      },
+      "submit": "Send",
+      "requiredField": "*"
+    }
+  },
+  "hero": {
+    "title": "From request to production—automated for manufacturing SMEs",
+    "qualifier": "Trusted by",
+    "subtitle": "Fast micro-automations (Tier 1), production-ready Sales→BOM & drawing packages (Tier 2), and configure-to-order configurators (Tier 3). GDPR-compliant, with n8n self-host option.",
+    "cta": {
+      "primary": "Book an intake",
+      "secondary": "Calculate your ROI"
+    },
+    "trustedBy": "Trusted by 50+ manufacturing SMEs"
+  },
+  "outcomes": {
+    "label": "Typical outcomes",
+    "speed": {
+      "title": "Faster response time",
+      "value": "-60%",
+      "footnote": "Average go-live within 6 weeks."
+    },
+    "deals": {
+      "title": "More deals",
+      "value": "+25-40%",
+      "footnote": "Sales pipeline moves to won faster."
+    },
+    "work": {
+      "title": "Less repetitive work",
+      "value": "-30-50%",
+      "footnote": "Teams focus on high-value tasks."
+    }
+  },
+  "services": {
+    "title": "What we build for you",
+    "subtitle": "Flows and agents that drive revenue from day one.",
+    "automation": {
+      "title": "Email-to-action",
+      "description": "Turn incoming email into tasks and follow-ups instantly."
+    },
+    "integrations": {
+      "title": "WhatsApp-first funnels",
+      "description": "Let WhatsApp handle quotes, reminders, and status updates."
+    },
+    "chatbots": {
+      "title": "AI agents & chatbots",
+      "description": "AI agents that resolve tier-one questions and escalate smartly."
+    },
+    "dashboards": {
+      "title": "Dashboards & reporting",
+      "description": "Weekly insight into bottlenecks, pipeline, and SLAs."
+    },
+    "web": {
+      "title": "Web design + automations",
+      "description": "Sites that connect your tools and qualify leads automatically."
+    },
+    "items": [
+      {
+        "title": "Email-to-action",
+        "description": "Turn incoming email into tasks and follow-ups instantly."
+      },
+      {
+        "title": "WhatsApp-first funnels",
+        "description": "Let WhatsApp handle quotes, reminders, and status updates."
+      },
+      {
+        "title": "AI agents & chatbots",
+        "description": "AI agents that resolve tier-one questions and escalate smartly."
+      },
+      {
+        "title": "Dashboards & reporting",
+        "description": "Weekly insight into bottlenecks, pipeline, and SLAs."
+      },
+      {
+        "title": "Web design + automations",
+        "description": "Sites that connect your tools and qualify leads automatically."
+      }
+    ]
+  },
+  "process": {
+    "title": "How we work",
+    "subtitle": "Three focused sprints from intake to live.",
+    "step1": {
+      "title": "Analysis & blueprint",
+      "description": "Interviews plus data audit turn into a visual flow with KPIs."
+    },
+    "step2": {
+      "title": "Build & test",
+      "description": "Two-week sprints deliver workflows, logging, and dashboards."
+    },
+    "step3": {
+      "title": "Launch & optimise",
+      "description": "Training, support, and iterations so your team can operate independently."
+    }
+  },
+  "cases": {
+    "title": "Proof, not promises",
+    "subtitle": "A selection of recent engagements and the measured impact.",
+    "cta": "View case",
+    "items": [
+      {
+        "slug": "randstad-inhouse",
+        "client": "Randstad Inhouse",
+        "sector": "Recruitment",
+        "headline": "Intake from 3 days to 3 hours",
+        "summary": "WhatsApp intake assistant feeds the ATS and prioritises candidates instantly.",
+        "kpis": [
+          "-60% time-to-first-call",
+          "2.4x more qualified candidates",
+          "100% GDPR logging automatically"
+        ],
+        "ctaLabel": "Read case"
+      },
+      {
+        "slug": "abn-amro-ventures",
+        "client": "ABN AMRO Ventures",
+        "sector": "Investment",
+        "headline": "Dealflow scoring with real-time dashboards",
+        "summary": "AI scorecards push ranked deals to partners with full Power BI context.",
+        "kpis": [
+          "-280 hours of Excel work per quarter",
+          "87% match between score and won deal",
+          "Alerts when pipeline health drops"
+        ],
+        "ctaLabel": "Read case"
+      },
+      {
+        "slug": "cm-com-support",
+        "client": "CM.com Support",
+        "sector": "Support",
+        "headline": "24/7 support with a hybrid AI agent",
+        "summary": "RAG agent resolves 62% of tickets; Zendesk receives context and solution proposals for the rest.",
+        "kpis": [
+          "-47% ticket backlog in 6 weeks",
+          "+0.5 uplift in CSAT",
+          "-32% average handling time"
+        ],
+        "ctaLabel": "Read case"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Two-week sprints",
+        "body": "Every project ships in two-week blocks with dashboards, changelog, and video tour."
+      },
+      {
+        "title": "Stakeholders in control",
+        "body": "Leadership tracks KPI impact live, receives alerts, and can course-correct instantly."
+      },
+      {
+        "title": "Transparent ROI",
+        "body": "Each engagement shows baseline, target, and realised impact so you know what you buy."
+      }
+    ],
+    "detail": {
+      "randstad-inhouse": {
+        "title": "Randstad Inhouse — intake from 3 days to 3 hours",
+        "quote": {
+          "text": "Recruiters see which candidates are call-ready. Everything sits in the ATS with full context.",
+          "author": "Recruitment Team Lead",
+          "role": "Randstad Inhouse"
+        },
+        "kpis": [
+          { "label": "Time-to-first-call", "before": "3 days", "after": "3 hours" },
+          { "label": "Manual admin time", "before": "5 h/day", "after": "1.5 h/day" },
+          { "label": "Profile completeness", "before": "Fragmented", "after": "100% complete" }
+        ],
+        "problem": "Recruiters received hundreds of emails and WhatsApp messages weekly. Candidate data was scattered, causing days-long intake cycles.",
+        "build": [
+          "WhatsApp intake assistant asking context questions and plugging gaps.",
+          "Airtable scorecard that auto-prioritises and assigns recruiters.",
+          "Power BI board for daily stand-ups with pipeline status."
+        ],
+        "result": [
+          "Recruiters only work qualified profiles.",
+          "Managers see bottlenecks in real time and adjust capacity.",
+          "Full GDPR logging in SharePoint without manual work."
+        ],
+        "flow": [
+          "Inbox → WhatsApp intake",
+          "Agent processes intake + scorecard",
+          "Task in ATS + Slack notification to recruiter"
+        ]
+      },
+      "abn-amro-ventures": {
+        "title": "ABN AMRO Ventures — real-time dealflow scoring",
+        "quote": {
+          "text": "Every morning we start with a prioritised list. The team sees exactly why deals score, no spreadsheets needed.",
+          "author": "Investment Manager",
+          "role": "ABN AMRO Ventures"
+        },
+        "kpis": [
+          { "label": "Manual Excel work", "before": "280 h/quarter", "after": "40 h/quarter" },
+          { "label": "Deal scoring accuracy", "before": "Subjective", "after": "87% match to wins" },
+          { "label": "Pipeline issue alerts", "before": "Ad hoc", "after": "Automated alerts" }
+        ],
+        "problem": "Dealflow entered via email and forms but disappeared into spreadsheets. Partners lacked visibility and prioritisation.",
+        "build": [
+          "Parser unifying email and Formsort leads into Airtable.",
+          "AI scoring model trained on historic deals and notes.",
+          "Power BI dashboard with status, alerts, and rationale."
+        ],
+        "result": [
+          "Partners start with curated, high-impact deals every day.",
+          "Scoring is transparent so decisions move faster.",
+          "Operations no longer maintain spreadsheets."
+        ],
+        "flow": [
+          "Inbox/Formsort → Airtable intake",
+          "AI scoring + partner review",
+          "Power BI dashboard + Slack digest"
+        ]
+      },
+      "cm-com-support": {
+        "title": "CM.com Support — hybrid AI agent handles 62% of tickets",
+        "quote": {
+          "text": "Customers get instant answers and agents receive transcripts plus a recommended fix. The team focuses on exceptions.",
+          "author": "Head of Support",
+          "role": "CM.com"
+        },
+        "kpis": [
+          { "label": "Ticket backlog", "before": "100%", "after": "53%" },
+          { "label": "CSAT", "before": "4.1", "after": "4.6" },
+          { "label": "Average handling time", "before": "12 min", "after": "8 min" }
+        ],
+        "problem": "Support juggled multiple channels and tools. Repetitive requests still required a human agent.",
+        "build": [
+          "RAG agent on product docs and historic tickets.",
+          "Zendesk macros with full context and proposed resolution.",
+          "WhatsApp follow-up pushing status updates automatically."
+        ],
+        "result": [
+          "62% of all inquiries resolved without human intervention.",
+          "Agents spend time on edge cases and high-touch issues.",
+          "Complete audit trail for compliance and QA."
+        ],
+        "flow": [
+          "Inbox → AI triage",
+          "Agent response or Zendesk ticket with context",
+          "WhatsApp update to customer"
+        ]
+      }
+    },
+    "structure": {
+      "problem": "Problem",
+      "build": "What we built",
+      "result": "Result",
+      "flow": "How it works",
+      "next": "Next step",
+      "cta": "Want the same for your team? Book a free intake."
+    }
+  },
+  "pricing": {
+    "title": "Transparent pricing for every scale",
+    "subtitle": "From fast micro-automations to complete configurators.",
+    "tiers": [
+      {
+        "id": "light",
+        "name": "Light Automations",
+        "tagline": "Fast micro-automations for immediate impact",
+        "price": "999",
+        "priceDisplay": "from €999",
+        "priceNote": "All prices excl. VAT. Exact price depends on scope and integrations.",
+        "features": [
+          "Inbox-to-Action automation",
+          "Leads-to-Booking flow",
+          "WhatsApp Helpdesk",
+          "Invoice Robot",
+          "Setup + Training included",
+          "Support 30/60/90 days"
+        ],
+        "cta": "View Light solutions"
+      },
+      {
+        "id": "manufacturing",
+        "name": "Sales→BOM & Drawing Packages",
+        "tagline": "Production-ready solutions for manufacturing",
+        "price": "1999",
+        "priceDisplay": "from €1,999",
+        "priceNote": "From-price, exact scope determined in intake.",
+        "features": [
+          "Sales→BOM Bridge",
+          "Drawing Pack Generator",
+          "ERP connectors (Exact, SAP, Odoo)",
+          "Configuration validation",
+          "Production-ready output",
+          "Custom integrations"
+        ],
+        "cta": "View Manufacturing solutions",
+        "highlight": true
+      },
+      {
+        "id": "configurators",
+        "name": "CPQ & Configure-to-Production",
+        "tagline": "Full configurators for complex products",
+        "price": null,
+        "priceDisplay": "Price on request",
+        "priceNote": "Custom—price on request. Book an intake to assess your use case.",
+        "features": [
+          "CPQ (Configure-Price-Quote) standard",
+          "C2P (Configure-to-Production) advanced",
+          "3D visualization",
+          "Rule engine for validation",
+          "Multi-level BOM output",
+          "Full ERP/PLM integration"
+        ],
+        "cta": "Book intake for Configurators"
+      }
+    ],
+    "disclaimer": "All prices are from-prices and exclude VAT. Final price depends on scope, number of integrations, and custom requirements.",
+    "cta": "Book an intake",
+    "ctaSecondary": "Calculate your ROI"
+  },
+  "industries": {
+    "title": "Industries we serve every day",
+    "intro": "Pick your sector for concrete use-cases and expected KPIs.",
+    "sectors": [
+      {
+        "slug": "services",
+        "name": "Services",
+        "problem": "Teams drown in emails and ad-hoc WhatsApp threads.",
+        "usecases": [
+          "Inbox triage from quote to task",
+          "WhatsApp appointments & reminders"
+        ],
+        "kpi": "+30% more completed engagements within 6 weeks"
+      },
+      {
+        "slug": "retail-ecommerce",
+        "name": "Retail & e-commerce",
+        "problem": "Support and sales blur, so follow-ups drop.",
+        "usecases": [
+          "Lead-to-chat → order automation",
+          "Support triage + RMA updates"
+        ],
+        "kpi": "-45% ticket handling time, +18% repeat orders"
+      },
+      {
+        "slug": "construction",
+        "name": "Construction",
+        "problem": "Scheduling and materials live in spreadsheets and phone calls.",
+        "usecases": [
+          "Scheduling on-site measurements via WhatsApp",
+          "Auto-batching material orders"
+        ],
+        "kpi": "-4 hours planning per project, +12% margin"
+      }
+    ],
+    "cta": "Curious? Book a free intake."
+  },
+  "security": {
+    "title": "Security & compliance",
+    "sections": [
+      {
+        "title": "Data location & processing",
+        "copy": "We host primarily within the EU and document every data flow."
+      },
+      {
+        "title": "Consent & logging",
+        "copy": "Consent flows and logging included; audit trails available within 24 hours."
+      },
+      {
+        "title": "DPA per tool",
+        "copy": "We deliver DPAs per vendor and enforce contractual usage."
+      },
+      {
+        "title": "Access & retention",
+        "copy": "Least-privilege access, automatic revocation, retention per process."
+      }
+    ],
+    "cta": "Request our security overview (PDF)."
+  },
+  "integrations": {
+    "title": "Integrations we connect daily",
+    "subtitle": "We plug into where your teams already work.",
+    "items": [
+      "Gmail / Outlook",
+      "ClickUp",
+      "Trello",
+      "WhatsApp Cloud API",
+      "Make",
+      "Zapier",
+      "n8n"
+    ]
+  },
+  "insights": {
+    "title": "Insights",
+    "subtitle": "Punchy playbooks with ready-to-ship flows and measurement plans.",
+    "posts": [
+      {
+        "slug": "whatsapp-first-funnels",
+        "title": "WhatsApp-first funnels live in 5 days",
+        "summary": "Leverage intake scripts, follow-up flows, and KPI dashboards to speed sales.",
+        "cta": "Read the playbook"
+      },
+      {
+        "slug": "inbox-to-action",
+        "title": "Inbox-to-Action blueprint",
+        "summary": "Build an intake that turns email into ClickUp or Trello tasks automatically.",
+        "cta": "Read the playbook"
+      },
+      {
+        "slug": "support-bots",
+        "title": "Support bots with human hand-off",
+        "summary": "Combine RAG, Zendesk macros, and WhatsApp updates for delighted customers.",
+        "cta": "Read the playbook"
+      }
+    ],
+    "detailPlaceholder": "This insight is a work in progress. We're collecting the latest results and screenshots so you can see exactly how onboarding, automation, and KPI tracking come together. Leave your email via the intake and you'll receive the finished version first.",
+    "detailInvite": "Want to discuss how this flow fits your organisation? Book an intake and we will walk through your stack and processes."
+  },
+  "blueprint": {
+    "title": "Inbox-to-Action Blueprint",
+    "subtitle": "Download the PDF with checklists for intake, build, and adoption.",
+    "description": "Everything you need to turn emails and WhatsApp into action automatically.",
+    "bullets": [
+      "Intake checklist for discovery and system audit",
+      "Blueprint template covering flows, triggers, and KPIs",
+      "Adoption plan + training checklist for your team"
+    ],
+    "cta": "Get the blueprint"
+  },
+  "roi": {
+    "title": "ROI calculator",
+    "subtitle": "Estimate automation impact for your team in under 2 minutes.",
+    "steps": [
+      "Enter volumes and current handling time",
+      "Pick the processes we automate",
+      "See projected savings and revenue lift instantly"
+    ],
+    "cta": "Start the calculator"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Answers to the most common questions.",
+    "questions": [
+      {
+        "q": "How long does a typical project take?",
+        "a": "Most engagements go live within 2-6 weeks depending on scope. We work in two-week sprints with weekly demos."
+      },
+      {
+        "q": "Which systems do you integrate?",
+        "a": "We work daily with Zapier, Make, n8n, WhatsApp Cloud API, ClickUp, Trello, Airtable, and custom APIs. If your stack isn't listed, there's a good chance we can still connect it."
+      },
+      {
+        "q": "What happens after go-live?",
+        "a": "You receive documentation, logging, and monitoring. We train your team and optionally stay on retainer for optimisations or new flows."
+      },
+      {
+        "q": "How do you handle security?",
+        "a": "We document data flows, deliver DPAs per vendor, and bake in logging and access management. More details are in the security overview."
+      },
+      {
+        "q": "Can you work with our internal team?",
+        "a": "Absolutely. We design blueprints and flows so your team can maintain or extend them after handover."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Book a free intake and see how automation lifts your team.",
+    "button": "Book an intake"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "We respond within 24 hours. Pick your preferred channel.",
+    "channels": {
+      "whatsapp": {
+        "title": "WhatsApp",
+        "tagline": "Fastest reply (08:30-19:00 CET)",
+        "body": "Drop us a message. Within 10 minutes we share an intake or follow-up questions."
+      },
+      "email": {
+        "title": "Email",
+        "tagline": "For detailed requests",
+        "body": "Send documentation, use-cases, or NDA requests to our team."
+      },
+      "call": {
+        "title": "Book a call",
+        "tagline": "30 minutes via Google Meet",
+        "body": "Pick a slot for a deep dive into your processes and tooling."
+      }
+    },
+    "formIntro": "Share your goal, current tools, and desired timeline. We'll reply with an intake plan within 24 hours."
+  },
+  "footer": {
+    "tagline": "Smart automation for Dutch SMEs.",
+    "rights": "All rights reserved",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "legal": "Legal",
+    "security": "Security overview",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "solutions": {
+      "overview": "All Solutions",
+      "light": "Light Automations",
+      "manufacturing": "Sales→BOM & Drawing Packages",
+      "configurators": "CPQ & Configurators"
+    }
+  },
+  "whatsapp": {
+    "label": "Ask via WhatsApp"
+  },
+  "language": {
+    "switcher": "Language",
+    "nl": "Nederlands",
+    "en": "English"
+  },
+  "demo": {
+    "title": "Watch the 90-second demo",
+    "subtitle": "See how inbox, AI agent, and WhatsApp follow-up work together in one flow.",
+    "cta": "Book an intake"
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience. You can manage your preferences.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "settings": "Settings"
+  },
+  "trust": {
+    "title": "Secure and GDPR-compliant",
+    "items": [
+      "EU hosting",
+      "DPA available",
+      "n8n self-host option"
+    ]
+  },
+  "solutions": {
+    "title": "Solutions for every scale",
+    "subtitle": "From quick wins to full production integration",
+    "cta": "Not sure? Book an intake.",
+    "light": {
+      "title": "Light Automations",
+      "subtitle": "Fast micro-automations for immediate impact",
+      "description": "Small, focused automations that go live within days and deliver immediate results.",
+      "price": "999",
+      "useCases": [
+        {
+          "name": "Inbox-to-Action",
+          "description": "Emails automatically to tasks in ClickUp/Trello/Teams",
+          "example": "All emails with 'quote' → high priority task within 30 sec"
+        },
+        {
+          "name": "Leads-to-Booking",
+          "description": "Website leads directly to calendar + WhatsApp confirmation",
+          "example": "Form submission → calendar link + WhatsApp within 2 min"
+        },
+        {
+          "name": "WhatsApp Helpdesk",
+          "description": "FAQ bot + forward to team with context",
+          "example": "62% questions answered directly, rest with full context"
+        },
+        {
+          "name": "Invoice Robot",
+          "description": "Automatically process and book invoices",
+          "example": "PDF → data extraction → booking in Exact within 5 min"
+        }
+      ],
+      "includes": [
+        "Setup + configuration",
+        "Training (2 hours)",
+        "Support 30/60/90 days",
+        "Documentation + runbook"
+      ],
+      "cta": "View Light pricing"
+    },
+    "manufacturing": {
+      "title": "Sales→BOM & Drawing Packages",
+      "subtitle": "Production-ready solutions for manufacturing",
+      "description": "Translate sales configurations directly to production documents: BOMs, drawings, and ERP integrations.",
+      "price": "1999",
+      "useCases": [
+        {
+          "name": "Sales→BOM Bridge",
+          "description": "Configurator output → multi-level BOM for production",
+          "example": "Sales fills configurator → complete BOM in ERP within minutes"
+        },
+        {
+          "name": "Drawing Pack Generator",
+          "description": "Automatically generate technical drawings per order",
+          "example": "Order configuration → PDF drawing set + DXF/STEP files"
+        },
+        {
+          "name": "ERP connectors",
+          "description": "Integrations with Exact, SAP, Odoo, and more",
+          "example": "Order → items, BOMs, routing automatically in ERP"
+        }
+      ],
+      "features": [
+        "Multi-level BOM structure",
+        "Validation rules engine",
+        "Template-based drawings",
+        "ERP/PLM integrations",
+        "Production-ready output",
+        "Version control"
+      ],
+      "kpis": {
+        "title": "Typical results",
+        "items": [
+          "85% fewer production errors",
+          "4x faster from order to production",
+          "60% engineering time savings"
+        ]
+      },
+      "cta": "Book intake"
+    },
+    "configurators": {
+      "title": "CPQ & Configure-to-Production",
+      "subtitle": "Full configurators for complex products",
+      "description": "Custom configurators that automate everything from sales to production. For products with complex rules and variants.",
+      "price": null,
+      "types": [
+        {
+          "name": "CPQ (Configure-Price-Quote)",
+          "description": "Standard configurator with pricing and quote generation",
+          "features": [
+            "Visual configurator interface",
+            "Rule engine for validation",
+            "Dynamic pricing",
+            "PDF quote generation",
+            "CRM integration",
+            "Approval workflows"
+          ]
+        },
+        {
+          "name": "C2P (Configure-to-Production)",
+          "description": "Advanced: from configuration to complete production documents",
+          "features": [
+            "All CPQ features +",
+            "Multi-level BOM output",
+            "Technical drawings",
+            "CNC/CAM files",
+            "Material calculation",
+            "Full ERP/PLM/MES integration"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "industry": "Machinery",
+          "challenge": "Complex machines with 1000+ variants",
+          "solution": "C2P configurator: customer configures → complete BOM + drawings + CNC files"
+        },
+        {
+          "industry": "Furniture",
+          "challenge": "Custom cabinets with many options",
+          "solution": "CPQ with 3D preview → quote + production instructions"
+        }
+      ],
+      "priceNote": "Custom—price on request. Book an intake to assess your use case.",
+      "cta": "Book intake for Configurators"
+    },
+    "caseStudies": {
+      "title": "Proven Results",
+      "subtitle": "Real cases with measurable impact",
+      "viewSolution": "View this solution",
+      "case1": {
+        "sector": "Financial Services",
+        "client": "Top-3 Dutch Bank",
+        "challenge": "Onboarding new business customers took 14 days due to manual checks, document verification, and approval processes.",
+        "result1": "89% faster onboarding (from 14 to 1.5 days)",
+        "result2": "67% fewer manual actions"
+      },
+      "case2": {
+        "sector": "SaaS / Communication Platform",
+        "client": "EU CPaaS Scale-up (40M+ API calls/month)",
+        "challenge": "Support team received 200+ questions per day. 60% were FAQs about API documentation, rate limits, and billing. Response time: 8 hours.",
+        "result1": "71% of questions automatically resolved",
+        "result2": "6.2 hours faster response (from 8h → 1h 48min)"
+      },
+      "case3": {
+        "sector": "E-commerce / Wholesale",
+        "client": "B2B Webshop (15,000+ SKUs)",
+        "challenge": "Inventory data in 3 systems (ERP, webshop, warehouse) were often out of sync. This led to overselling and manual corrections.",
+        "result1": "94% fewer overselling incidents",
+        "result2": "12 hours per week saved on manual sync"
+      }
+    }
+  },
+  "roiCalculator": {
+    "title": "ROI Calculator",
+    "subtitle": "Calculate the impact of automation on your team",
+    "presets": {
+      "light": "Light Automation",
+      "manufacturing": "Manufacturing",
+      "c2p": "Configure-to-Production"
+    },
+    "inputs": {
+      "teamSize": "Team size (people)",
+      "hourlyRate": "Hourly rate (€)",
+      "hoursSavedPerWeek": "Hours saved per week",
+      "adoption": "Adoption (%)"
+    },
+    "outputs": {
+      "weeklySavings": "Weekly savings",
+      "monthlySavings": "Monthly savings",
+      "annualSavings": "Annual savings",
+      "hoursSavedAnnually": "Hours saved annually"
+    },
+    "cta": {
+      "primary": "Book an intake",
+      "secondary": "Export as CSV",
+      "email": "Email me my calculation"
+    },
+    "hints": {
+      "teamSize": "Number of people working with the process",
+      "hourlyRate": "Average hourly rate of the team",
+      "hoursSavedPerWeek": "How many hours per week you save per person",
+      "adoption": "What percentage of the team uses the solution"
+    },
+    "methodology": {
+      "title": "How do we calculate ROI?",
+      "description": "Our calculator uses a conservative formula based on 100+ projects.",
+      "formula": "Weekly savings = Team size × Hourly rate × Hours saved × Adoption"
+    },
+    "validation": {
+      "teamSize": "Team size must be between 1 and 1000",
+      "hourlyRate": "Hourly rate must be between €10 and €500",
+      "hoursSavedPerWeek": "Hours saved must be between 0.5 and 40",
+      "adoption": "Adoption must be between 10% and 100%"
+    },
+    "error": {
+      "submit": "Something went wrong. Please try again."
+    },
+    "privacy": "We don't share your data. See our privacy policy.",
+    "emailConsent": "I want to receive my calculation by email"
+  },
+  "about": {
+    "title": "About us",
+    "subtitle": "Caribbean Azure helps small and medium-sized teams work smarter with automation. We map processes, connect the right tools, and build only what's truly needed. No buzzwords—just measurable results and transferable workflows that your team understands and manages.",
+    "whatWeDoTitle": "What we do",
+    "whatWeDoSubtitle": "Practical automation for daily work",
+    "whatWeDo": [
+      "Process analysis and quick improvement plans",
+      "Integrations between email, CRM, documents, and planning",
+      "Dashboards and notifications for status & follow-up"
+    ],
+    "howWeWorkTitle": "How we work",
+    "steps": [
+      {"title": "Intake", "description": "30 minutes to understand your situation"},
+      {"title": "Proof-of-Value", "description": "1–2 weeks: quick prototype to prove value"},
+      {"title": "Implementation", "description": "Build, test, and go live with the solution"},
+      {"title": "Knowledge transfer", "description": "Your team learns to understand and manage it"}
+    ],
+    "cta": "Book a short intake",
+    "complianceTitle": "Independence & Compliance",
+    "complianceText": "Caribbean Azure operates independently and does not mention client or employer names. We only communicate results we can factually demonstrate."
+  },
+  "terms": {
+    "badge": "Terms & Conditions",
+    "title": "Terms and conditions",
+    "updated": "Last updated: October 24, 2025",
+    "intro": "These general terms and conditions apply to all agreements between Caribbean Azure and the client.",
+    "article1": {
+      "title": "Article 1 – Definitions",
+      "items": [
+        "<strong>Contractor:</strong> Caribbean Azure, based in the Netherlands",
+        "<strong>Client:</strong> The natural or legal person entering into an agreement with the contractor",
+        "<strong>Services:</strong> All work performed by the contractor, including automation, web development, AI integrations, consultancy, and training",
+        "<strong>Deliverable:</strong> A concrete delivered product or result such as a workflow, dashboard, website, or report",
+        "<strong>Blueprint:</strong> A visual plan with flowcharts, data flows, and technical specifications"
+      ]
+    },
+    "article2": {
+      "title": "Article 2 – Applicability",
+      "paragraphs": [
+        "2.1. These general terms and conditions apply to all offers, quotations, and agreements between contractor and client.",
+        "2.2. Deviations from these terms are only valid if agreed upon in writing.",
+        "2.3. The applicability of any purchasing or other terms and conditions of the client is expressly rejected.",
+        "2.4. If one or more provisions in these general terms and conditions are void, the remaining provisions remain fully effective."
+      ]
+    },
+    "article3": {
+      "title": "Article 3 – Quotation and formation",
+      "paragraphs": [
+        "3.1. All quotations are non-binding and valid for 30 days, unless stated otherwise.",
+        "3.2. An agreement is concluded after written confirmation by the contractor or upon commencement of work.",
+        "3.3. Prices in quotations are exclusive of VAT, unless stated otherwise.",
+        "3.4. If the client does not agree with a quotation, it automatically expires after 30 days."
+      ]
+    },
+    "article4": {
+      "title": "Article 4 – Execution of the assignment",
+      "paragraphs": [
+        "4.1. The contractor will execute the agreement to the best of its ability, in accordance with state-of-the-art practices in the industry.",
+        "4.2. Delivered deliverables are tested prior to delivery. The client has 5 working days to provide feedback.",
+        "4.3. The client provides all necessary information, access, and cooperation in a timely manner. Delays caused by the client may lead to adjustments in planning and costs.",
+        "4.4. The contractor has the right to engage third parties in the execution of the assignment.",
+        "4.5. Stated lead times are indicative and not strict deadlines, unless expressly agreed upon in writing."
+      ]
+    },
+    "article5": {
+      "title": "Article 5 – Prices and payment",
+      "paragraphs": [
+        "5.1. All prices are exclusive of VAT and exclusive of costs for external tools (such as Zapier, Make, API licenses).",
+        "5.2. Payment must be made within 14 days after the invoice date, unless otherwise agreed.",
+        "5.3. For projects above €5,000, the contractor may send a down payment invoice of 30% upon signing.",
+        "5.4. If the payment term is exceeded, the client is in default without further notice. The contractor has the right to charge 1% interest per month.",
+        "5.5. All collection costs, both judicial and extrajudicial, are at the expense of the client."
+      ]
+    },
+    "article6": {
+      "title": "Article 6 – Intellectual property",
+      "paragraphs": [
+        "6.1. All intellectual property rights to works developed or delivered by the contractor rest with the contractor, unless agreed otherwise in writing.",
+        "6.2. The client obtains a non-exclusive, non-transferable right of use for the delivered deliverables for internal use within the organization.",
+        "6.3. The client is not permitted to reproduce, sell, or make the delivered works available to third parties without prior written permission from the contractor.",
+        "6.4. Custom code and scripts remain the property of the contractor, but the client receives full access and modification rights for internal use.",
+        "6.5. Reusable components, templates, and frameworks developed by the contractor remain the contractor's property and may be reused for other projects."
+      ]
+    },
+    "article7": {
+      "title": "Article 7 – Liability",
+      "paragraphs": [
+        "7.1. The contractor is only liable for direct damage resulting from intent or willful recklessness on the part of the contractor.",
+        "7.2. Liability for indirect damage, including consequential damage, lost profits, missed savings, and damage due to business interruption, is excluded.",
+        "7.3. The contractor's liability is limited to a maximum of the invoice amount for the relevant assignment, with a maximum of €25,000.",
+        "7.4. The client is responsible for making backups of their own data and systems. The contractor is not liable for data loss.",
+        "7.5. The contractor is not liable for outages, failures, or changes in external systems and APIs of third parties (such as Zapier, Make, ClickUp, Google, Microsoft)."
+      ]
+    },
+    "article8": {
+      "title": "Article 8 – Warranty and maintenance",
+      "paragraphs": [
+        "8.1. The contractor guarantees that delivered deliverables meet the specifications described in the blueprint.",
+        "8.2. During the agreed support period (standard 30 days after delivery), the contractor fixes bugs and functional issues free of charge.",
+        "8.3. After the support period expires, bugs and adjustments can be invoiced based on hourly rate or via a support subscription.",
+        "8.4. The warranty expires if the client or third parties have made changes to the delivered systems without permission."
+      ]
+    },
+    "article9": {
+      "title": "Article 9 – Confidentiality",
+      "paragraphs": [
+        "9.1. Both parties commit to confidentiality of all confidential information obtained from each other in the context of the agreement.",
+        "9.2. The contractor may use the client's name and a general description of the project for reference purposes, unless agreed otherwise in writing.",
+        "9.3. At the client's request, a separate Non-Disclosure Agreement (NDA) can be concluded prior to the quotation phase."
+      ]
+    },
+    "article10": {
+      "title": "Article 10 – Termination and cancellation",
+      "paragraphs": [
+        "10.1. Both parties can terminate the agreement in writing with a notice period of 30 days, unless otherwise agreed.",
+        "10.2. In case of early termination by the client, the client remains obligated to pay for work already performed and costs incurred.",
+        "10.3. The contractor has the right to terminate the agreement with immediate effect if the client fails to meet payment obligations or is declared bankrupt.",
+        "10.4. For retainer agreements, a notice period of 60 days applies at the end of a calendar month."
+      ]
+    },
+    "article11": {
+      "title": "Article 11 – Applicable law and disputes",
+      "paragraphs": [
+        "11.1. All agreements between contractor and client are exclusively governed by Dutch law.",
+        "11.2. Disputes will be submitted to the competent court in the district where the contractor is located.",
+        "11.3. Parties will first attempt to resolve a dispute through mutual consultation before resorting to court."
+      ]
+    }
+  },
+  "privacy": {
+    "badge": "Privacy Policy",
+    "title": "Privacy Policy",
+    "updated": "Last updated: October 24, 2025",
+    "intro": "Caribbean Azure respects your privacy and processes your data in accordance with GDPR. This policy explains what data we collect, why, and how you can exercise your rights.",
+    "section1": {
+      "title": "1. Who is responsible?",
+      "controller": "<strong>Data Controller:</strong><br />Caribbean Azure<br />Email: privacy@caribbeanazure.com",
+      "text": "Caribbean Azure is responsible for processing personal data as described in this privacy policy."
+    },
+    "section2": {
+      "title": "2. What data do we collect?",
+      "viaForms": "Via contact forms:",
+      "viaFormsItems": [
+        "Name",
+        "Email address",
+        "Phone number (optional)",
+        "Company name (optional)",
+        "Message or question",
+        "ROI calculator results (if completed)"
+      ],
+      "automatic": "Automatically collected:",
+      "automaticItems": [
+        "IP address (anonymized)",
+        "Browser type and version",
+        "Pages visited and timestamps",
+        "Referrer URL"
+      ],
+      "summary": "We only collect <strong>data that you actively provide</strong> or that is necessary for the website to function."
+    },
+    "section3": {
+      "title": "3. Why do we process your data?",
+      "contact": "Contact and quote requests:",
+      "contactItems": [
+        "To answer your question",
+        "To prepare a quote or proposal",
+        "To inform you about our services (only if you give permission)"
+      ],
+      "analytics": "Website analytics:",
+      "analyticsItems": [
+        "To understand how visitors use the website",
+        "To improve user experience",
+        "To identify technical issues"
+      ],
+      "legal": "<strong>Legal basis:</strong> We process your data based on your consent, performance of a contract, or legitimate interest (analytics)."
+    },
+    "section4": {
+      "title": "4. How long do we keep your data?",
+      "items": [
+        "<strong>Contact forms:</strong> 2 years after last contact (unless there is an agreement)",
+        "<strong>Customer data:</strong> 7 years after end of agreement (legal retention requirement)",
+        "<strong>Analytics data:</strong> 14 months (anonymized)",
+        "<strong>Marketing consent:</strong> Until you withdraw it"
+      ],
+      "deletion": "After the retention period, we permanently delete your data, unless a legal retention obligation applies."
+    },
+    "section5": {
+      "title": "5. Do we share your data with third parties?",
+      "intro": "We <strong>never</strong> sell or rent your data to third parties. We only share data with parties that help us deliver our services:",
+      "processors": "Processors (sub-processors):",
+      "processorsList": [
+        "<strong>Vercel:</strong> Website hosting (EU/US, GDPR-compliant)",
+        "<strong>Resend:</strong> Email delivery (EU, GDPR-compliant)",
+        "<strong>ClickUp:</strong> CRM and project management (US, GDPR-compliant)",
+        "<strong>Plausible Analytics:</strong> Privacy-friendly analytics (EU)"
+      ],
+      "dpa": "We have concluded a data processing agreement with all processors in accordance with GDPR. More details can be found on our <a href=\"/security\" class=\"text-[color:var(--brand)] hover:underline\">/security page</a>."
+    },
+    "section6": {
+      "title": "6. Your rights",
+      "intro": "You have the following rights under GDPR:",
+      "rights": [
+        "<strong>Right of access:</strong> You may request what data we have about you",
+        "<strong>Right to rectification:</strong> You can have incorrect data corrected",
+        "<strong>Right to erasure:</strong> You can request deletion of your data",
+        "<strong>Right to restriction:</strong> You can request to limit processing",
+        "<strong>Right to data portability:</strong> You can request your data in a structured format",
+        "<strong>Right to object:</strong> You can object to processing",
+        "<strong>Right to withdraw consent:</strong> If we work based on consent"
+      ],
+      "exercise": "To exercise your rights, send an email to <a href=\"mailto:privacy@caribbeanazure.com\" class=\"text-[color:var(--brand)] hover:underline\">privacy@caribbeanazure.com</a>. We respond within 30 days.",
+      "complaint": "Don't agree with how we process your data? You can file a complaint with the <a href=\"https://autoriteitpersoonsgegevens.nl\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[color:var(--brand)] hover:underline\">Dutch Data Protection Authority</a>."
+    },
+    "section7": {
+      "title": "7. Security",
+      "intro": "We take security seriously and implement appropriate technical and organizational measures:",
+      "measures": [
+        "HTTPS/TLS encryption for all data in transit",
+        "Access control and authorization (Role-Based Access Control)",
+        "Data is encrypted at rest where possible",
+        "Logging and monitoring of system activity",
+        "Regular security updates and patches"
+      ],
+      "moreInfo": "More details about our security measures can be found on the <a href=\"/security\" class=\"text-[color:var(--brand)] hover:underline\">/security page</a>."
+    },
+    "section8": {
+      "title": "8. Cookies and tracking",
+      "intro": "This website uses cookies. You can adjust your preferences via the cookie banner that appears on your first visit, or via the settings at the bottom of this page.",
+      "functional": "Functional cookies (always active):",
+      "functionalItems": [
+        "Cookie consent preferences",
+        "Session cookies for contact forms"
+      ],
+      "analyticsLabel": "Analytics cookies (optional):",
+      "analyticsItems": [
+        "Plausible Analytics (privacy-friendly, no personal data)"
+      ],
+      "noTracking": "We do <strong>not</strong> use Google Analytics, Facebook Pixel, or other invasive tracking tools."
+    },
+    "section9": {
+      "title": "9. Changes",
+      "text1": "We may update this privacy policy. The most recent version can always be found on this page. The date of the last change is at the top of this document.",
+      "text2": "For major changes, we will inform you via email (if we have your email address)."
+    },
+    "section10": {
+      "title": "10. Contact",
+      "intro": "Do you have questions about this privacy policy or want to exercise your rights?",
+      "details": "<strong>Email:</strong> <a href=\"mailto:privacy@caribbeanazure.com\" class=\"text-[color:var(--brand)] hover:underline\">privacy@caribbeanazure.com</a><br /><strong>Correspondence address:</strong> Caribbean Azure, Netherlands"
+    }
+  },
+  "casesPage": {
+    "title": "Cases: measurable impact",
+    "subtitle": "How we help SMEs and scale-ups with process automation and AI. All cases are anonymized to ensure confidentiality.",
+    "caseLabel": "Case",
+    "sectionProblem": "Problem",
+    "sectionApproach": "Approach",
+    "sectionResults": "Results",
+    "cta": {
+      "title": "Do you recognize these challenges?",
+      "description": "Schedule a no-obligation 45-minute conversation. We'll discuss your situation and share concrete quick wins you can apply immediately.",
+      "buttonIntake": "Schedule an intake",
+      "buttonROI": "Calculate your ROI",
+      "footer": "Response within 24 hours · No obligations"
+    },
+    "caseStudies": [
+      {
+        "id": "fintech-onboarding",
+        "client": "Top-3 Dutch bank",
+        "sector": "Financial services",
+        "challenge": "Onboarding new business customers took 14 days due to manual checks, document verification, and approval processes. This led to customer frustration and increased drop-off rates.",
+        "approach": [
+          "Built: AI document parser for Chamber of Commerce extracts and identity documents with 98% accuracy",
+          "Integrated: Real-time Chamber of Commerce API check + AML screening via external providers",
+          "Automated: Approval workflow with intelligent routing based on risk score",
+          "Set up: Dashboard for compliance team with real-time status insights"
+        ],
+        "results": [
+          "89% faster onboarding (from 14 to 1.5 days)",
+          "67% fewer manual actions",
+          "34% higher conversion through faster processing"
+        ]
+      },
+      {
+        "id": "saas-customer-support",
+        "client": "EU CPaaS scale-up (40M+ API calls/month)",
+        "sector": "SaaS / Communication Platform",
+        "challenge": "Support team received 200+ questions per day via email, Slack, and tickets. 60% were frequently asked questions about API documentation, rate limits, and billing. Average response time: 8 hours.",
+        "approach": [
+          "Built: AI chatbot trained on 2 years of support tickets + API docs",
+          "Integrated: Slack, Intercom, and ticketing system (Zendesk) via unified interface",
+          "Automated: Intelligent triage (simple → bot, complex → human with context)",
+          "Set up: Self-service portal for API key management and usage dashboards"
+        ],
+        "results": [
+          "71% of questions automatically resolved",
+          "6.2 hours faster response (from 8h → 1h 48min)",
+          "3 FTE freed up for proactive support"
+        ]
+      },
+      {
+        "id": "ecommerce-inventory",
+        "client": "B2B webshop (15,000+ SKUs)",
+        "sector": "E-commerce / Wholesale",
+        "challenge": "Inventory data in 3 systems (ERP, webshop, warehouse) was often not synchronized. This led to overselling, disappointed customers, and manual corrections by the team.",
+        "approach": [
+          "Built: Real-time sync between ERP (Exact), Shopify, and WMS with conflict resolution",
+          "Automated: Daily inventory reporting + alerts for deviations >5%",
+          "Integrated: Automatic price adjustments based on inventory levels and season",
+          "Set up: Predictive reordering dashboard based on historical sales"
+        ],
+        "results": [
+          "94% fewer overselling incidents",
+          "12 hours per week saved on manual sync",
+          "18% higher inventory turnover through smarter purchasing"
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "badge": "Get in touch",
+    "title": "Let's connect",
+    "subtitle": "Email, call, or message us. We respond within 24 hours.",
+    "contactMethods": {
+      "title": "How to reach us",
+      "whatsapp": {
+        "title": "WhatsApp",
+        "tagline": "Fastest response time",
+        "body": "Send us a message via WhatsApp for direct questions or a quick intake.",
+        "button": "Start WhatsApp chat"
+      },
+      "email": {
+        "title": "Email",
+        "tagline": "For detailed inquiries",
+        "body": "Send us an email and we'll respond within 24 hours."
+      },
+      "phone": {
+        "title": "Phone",
+        "tagline": "For direct conversations",
+        "body": "Call us during office hours (09:00-17:00) for a consultation."
+      }
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "Share your question and we'll get in touch soon."
+    },
+    "infoCards": {
+      "responseTime": {
+        "title": "Response time",
+        "description": "We respond within 24 hours on WhatsApp and email. By phone we're available on weekdays between 09:00-17:00."
+      },
+      "location": {
+        "title": "Location",
+        "description": "We work remote-first, but meet weekly in Amsterdam. For on-site workshops, we're happy to come to you."
+      },
+      "noObligations": {
+        "title": "No obligations",
+        "description": "The first conversation is always non-binding. We'll discuss your challenge and advise whether automation can make an impact."
+      }
+    }
+  }
+}
+
+
+
