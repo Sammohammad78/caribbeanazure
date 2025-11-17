@@ -1,9 +1,8 @@
 import { Header } from '@/components/layout/header'
-import { FooterSimple } from '@/components/layout/footer-simple'
-import { HeroSimple } from '@/components/sections/hero-simple'
-import { FeaturesSimple } from '@/components/sections/features-simple'
-import { ROICalculatorSection } from '@/components/sections/roi-calculator'
-import { CTASimple } from '@/components/sections/cta-simple'
+import { FooterModern } from '@/components/layout/footer-modern'
+import { HeroModern } from '@/components/sections/hero-modern'
+import { FeaturesModern } from '@/components/sections/features-modern'
+import { CTAModern } from '@/components/sections/cta-modern'
 import {
   OrganizationSchema,
   ServiceSchema,
@@ -20,24 +19,21 @@ export default function HomePage() {
       <LocalBusinessSchema />
       <WebsiteSchema />
 
-      <div className="relative min-h-screen">
+      <div className="relative min-h-screen bg-[color:var(--bg-primary)]">
         <Header />
         <main id="main-content">
-          {/* Simple, clean hero */}
-          <HeroSimple />
+          {/* Ultra-modern hero with grid background */}
+          <HeroModern />
 
-          {/* Features grid - consistent design */}
-          <FeaturesSimple />
+          {/* Modern features grid */}
+          <FeaturesModern />
 
-          {/* ROI Calculator - white background */}
-          <ROICalculatorSection />
-
-          {/* CTA section - brand background */}
-          <CTASimple />
+          {/* CTA with gradient border */}
+          <CTAModern />
         </main>
 
-        {/* Simple footer */}
-        <FooterSimple />
+        {/* Modern footer */}
+        <FooterModern />
       </div>
     </>
   )

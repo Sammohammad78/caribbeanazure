@@ -1,0 +1,348 @@
+@import "tailwindcss";
+
+/* ========================================
+   UNIFIED DESIGN SYSTEM - SIMPLE & CONSISTENT
+   ======================================== */
+
+:root {
+  color-scheme: light;
+
+  /* Brand Colors (ONLY 3) */
+  --brand: #0F5E9C;
+  --brand-light: #4BA3F7;
+  --brand-dark: #0A2A43;
+
+  /* Text Colors */
+  --text: #1a1a1a;
+  --text-muted: #6B7280;
+
+  /* Backgrounds */
+  --bg: #FFFFFF;
+  --bg-subtle: #F7F7F5;
+
+  /* Borders & Shadows */
+  --border: #E0DED7;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+:root.dark {
+  color-scheme: dark;
+
+  --text: #F0F1F3;
+  --text-muted: #9CA3AF;
+  --bg: #0D1117;
+  --bg-subtle: #161B22;
+  --border: #2D333B;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Monaco, 'Courier New', monospace;
+
+  /* Unified Colors */
+  --color-brand: var(--brand);
+  --color-brand-light: var(--brand-light);
+  --color-brand-dark: var(--brand-dark);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-bg: var(--bg);
+  --color-bg-subtle: var(--bg-subtle);
+  --color-border: var(--border);
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* ========================================
+   TYPOGRAPHY - CONSISTENT SCALE
+   ======================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 48px;      /* 3rem */
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 36px;      /* 2.25rem */
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;      /* 1.5rem */
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;      /* 1.25rem */
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.text-large {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.text-tiny {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+/* ========================================
+   LAYOUT UTILITIES
+   ======================================== */
+
+.container-custom {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .container-custom {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-custom {
+    padding: 0 32px;
+  }
+}
+
+/* Section Padding */
+.section-padding {
+  padding: 48px 0 64px;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding: 64px 0 80px;
+  }
+}
+
+/* ========================================
+   COMPONENT STYLES - SIMPLE & CONSISTENT
+   ======================================== */
+
+/* Card */
+.card-simple {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+
+.card-simple:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+/* Button Primary */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--brand);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: var(--shadow);
+  transition: background 200ms ease, transform 200ms ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: var(--brand-light);
+  transform: scale(1.02);
+}
+
+/* Button Secondary */
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--brand);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 2px solid var(--brand);
+  transition: all 200ms ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background: var(--brand);
+  color: white;
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: color-mix(in srgb, var(--brand) 5%, transparent);
+  border: 1px solid color-mix(in srgb, var(--brand) 20%, transparent);
+  color: var(--brand);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+
+.bg-white {
+  background: var(--bg);
+}
+
+.bg-subtle {
+  background: var(--bg-subtle);
+}
+
+.bg-brand {
+  background: var(--brand);
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-12 {
+  margin-bottom: 48px;
+}
+
+.mt-8 {
+  margin-top: 32px;
+}
+
+.grid-cols-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+/* ========================================
+   SIMPLE ANIMATIONS
+   ======================================== */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* ========================================
+   ACCESSIBILITY
+   ======================================== */
+
+*:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ========================================
+   RESPONSIVE TYPOGRAPHY
+   ======================================== */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
